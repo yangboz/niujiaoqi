@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGLProgram.m \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGLProgram.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccMacros.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccConfig.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/CCGL.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCGLView.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCESRenderer.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccGLStateCache.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCFileUtils.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/../ccTypes.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/uthash.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/OpenGL_Internal.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCDirector.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCProtocols.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/mat4.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/utility.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/GL/matrix.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/GL/../vec3.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/kazmath.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/vec2.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/mat3.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/quaternion.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/plane.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/aabb.h \
+  NiuJiaoQi/libs/kazmath/include/kazmath/ray2.h
