@@ -55,7 +55,7 @@
         
         // Use the CCBReader to load the HelloCocosBuilder scene
         // from the ccbi-file.
-        CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"Sleepless01.ccbi"];
+        CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"InteractivePaper.ccbi"];
     
 //        layer.isTouchEnabled = YES;
         

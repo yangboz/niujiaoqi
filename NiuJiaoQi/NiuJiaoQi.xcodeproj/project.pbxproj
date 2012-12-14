@@ -92,6 +92,25 @@
 		A403E978166BA225004791A9 /* poss20021.png in Resources */ = {isa = PBXBuildFile; fileRef = A403E962166BA225004791A9 /* poss20021.png */; };
 		A403E979166BA225004791A9 /* poss20022.png in Resources */ = {isa = PBXBuildFile; fileRef = A403E963166BA225004791A9 /* poss20022.png */; };
 		A403E98B166BA7C3004791A9 /* Sleepless01.m in Sources */ = {isa = PBXBuildFile; fileRef = A403E98A166BA7C2004791A9 /* Sleepless01.m */; };
+		A403F0E3167B4717006CE113 /* SubjectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A403F0E2167B4717006CE113 /* SubjectsModel.m */; };
+		A403F0F0167B50E8006CE113 /* InteractivePaper.m in Sources */ = {isa = PBXBuildFile; fileRef = A403F0EF167B50E8006CE113 /* InteractivePaper.m */; };
+		A403F10B167B54F2006CE113 /* 10 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F0FB167B54F2006CE113 /* 10 副本.png */; };
+		A403F10C167B54F2006CE113 /* 11 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F0FC167B54F2006CE113 /* 11 副本.png */; };
+		A403F10D167B54F2006CE113 /* 12 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F0FD167B54F2006CE113 /* 12 副本.png */; };
+		A403F10E167B54F2006CE113 /* 13 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F0FE167B54F2006CE113 /* 13 副本.png */; };
+		A403F10F167B54F2006CE113 /* 14 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F0FF167B54F2006CE113 /* 14 副本.png */; };
+		A403F110167B54F2006CE113 /* 15 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F100167B54F2006CE113 /* 15 副本.png */; };
+		A403F111167B54F2006CE113 /* 16 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F101167B54F2006CE113 /* 16 副本.png */; };
+		A403F120167B58F4006CE113 /* 1 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F117167B58F4006CE113 /* 1 副本.png */; };
+		A403F121167B58F4006CE113 /* 2 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F118167B58F4006CE113 /* 2 副本.png */; };
+		A403F122167B58F4006CE113 /* 3 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F119167B58F4006CE113 /* 3 副本.png */; };
+		A403F123167B58F4006CE113 /* 4 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11A167B58F4006CE113 /* 4 副本.png */; };
+		A403F124167B58F4006CE113 /* 5 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11B167B58F4006CE113 /* 5 副本.png */; };
+		A403F125167B58F4006CE113 /* 6 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11C167B58F4006CE113 /* 6 副本.png */; };
+		A403F126167B58F4006CE113 /* 7 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11D167B58F4006CE113 /* 7 副本.png */; };
+		A403F127167B58F4006CE113 /* 8 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11E167B58F4006CE113 /* 8 副本.png */; };
+		A403F128167B58F4006CE113 /* 9 副本.png in Resources */ = {isa = PBXBuildFile; fileRef = A403F11F167B58F4006CE113 /* 9 副本.png */; };
+		A403F12A167B6FA8006CE113 /* InteractivePaper.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A403F129167B6FA8006CE113 /* InteractivePaper.ccbi */; };
 		A4405D9F166A48CB00BB22C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405D9E166A48CB00BB22C4 /* QuartzCore.framework */; };
 		A4405DA1166A48CB00BB22C4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405DA0166A48CB00BB22C4 /* OpenGLES.framework */; };
 		A4405DA3166A48CB00BB22C4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405DA2166A48CB00BB22C4 /* OpenAL.framework */; };
@@ -323,6 +342,27 @@
 		A403E963166BA225004791A9 /* poss20022.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poss20022.png; sourceTree = "<group>"; };
 		A403E989166BA7C2004791A9 /* Sleepless01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sleepless01.h; sourceTree = "<group>"; };
 		A403E98A166BA7C2004791A9 /* Sleepless01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sleepless01.m; sourceTree = "<group>"; };
+		A403F0E1167B4717006CE113 /* SubjectsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectsModel.h; sourceTree = "<group>"; };
+		A403F0E2167B4717006CE113 /* SubjectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectsModel.m; sourceTree = "<group>"; };
+		A403F0EE167B50E8006CE113 /* InteractivePaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractivePaper.h; sourceTree = "<group>"; };
+		A403F0EF167B50E8006CE113 /* InteractivePaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractivePaper.m; sourceTree = "<group>"; };
+		A403F0FB167B54F2006CE113 /* 10 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10 副本.png"; sourceTree = "<group>"; };
+		A403F0FC167B54F2006CE113 /* 11 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11 副本.png"; sourceTree = "<group>"; };
+		A403F0FD167B54F2006CE113 /* 12 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12 副本.png"; sourceTree = "<group>"; };
+		A403F0FE167B54F2006CE113 /* 13 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "13 副本.png"; sourceTree = "<group>"; };
+		A403F0FF167B54F2006CE113 /* 14 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "14 副本.png"; sourceTree = "<group>"; };
+		A403F100167B54F2006CE113 /* 15 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "15 副本.png"; sourceTree = "<group>"; };
+		A403F101167B54F2006CE113 /* 16 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "16 副本.png"; sourceTree = "<group>"; };
+		A403F117167B58F4006CE113 /* 1 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 副本.png"; sourceTree = "<group>"; };
+		A403F118167B58F4006CE113 /* 2 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 副本.png"; sourceTree = "<group>"; };
+		A403F119167B58F4006CE113 /* 3 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 副本.png"; sourceTree = "<group>"; };
+		A403F11A167B58F4006CE113 /* 4 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 副本.png"; sourceTree = "<group>"; };
+		A403F11B167B58F4006CE113 /* 5 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 副本.png"; sourceTree = "<group>"; };
+		A403F11C167B58F4006CE113 /* 6 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6 副本.png"; sourceTree = "<group>"; };
+		A403F11D167B58F4006CE113 /* 7 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 副本.png"; sourceTree = "<group>"; };
+		A403F11E167B58F4006CE113 /* 8 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8 副本.png"; sourceTree = "<group>"; };
+		A403F11F167B58F4006CE113 /* 9 副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 副本.png"; sourceTree = "<group>"; };
+		A403F129167B6FA8006CE113 /* InteractivePaper.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = InteractivePaper.ccbi; sourceTree = "<group>"; };
 		A4405D9A166A48CB00BB22C4 /* NiuJiaoQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiuJiaoQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4405D9E166A48CB00BB22C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A4405DA0166A48CB00BB22C4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -647,6 +687,8 @@
 		A403E8A4166B8A49004791A9 /* ccbResources */ = {
 			isa = PBXGroup;
 			children = (
+				A403F129167B6FA8006CE113 /* InteractivePaper.ccbi */,
+				A403F0F1167B54F2006CE113 /* comic_book_strips */,
 				A4021CCA166CCF620087A202 /* Sleepless01.ccbi */,
 				A4021CC8166CCF520087A202 /* Sleepless02.ccbi */,
 				A403E90D166B9E22004791A9 /* poss3 */,
@@ -757,6 +799,62 @@
 			path = poss3;
 			sourceTree = "<group>";
 		};
+		A403F0DD167B468C006CE113 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A403F0E1167B4717006CE113 /* SubjectsModel.h */,
+				A403F0E2167B4717006CE113 /* SubjectsModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A403F0DF167B469C006CE113 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A403E989166BA7C2004791A9 /* Sleepless01.h */,
+				A403E98A166BA7C2004791A9 /* Sleepless01.m */,
+				A4021CB9166CCA3D0087A202 /* Sleepless02.h */,
+				A4021CBA166CCA3D0087A202 /* Sleepless02.m */,
+				A4405F3D166A48CE00BB22C4 /* HelloWorldLayer.h */,
+				A4405F3E166A48CE00BB22C4 /* HelloWorldLayer.m */,
+				A4405F40166A48CE00BB22C4 /* IntroLayer.h */,
+				A4405F41166A48CE00BB22C4 /* IntroLayer.m */,
+				A403F0EE167B50E8006CE113 /* InteractivePaper.h */,
+				A403F0EF167B50E8006CE113 /* InteractivePaper.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		A403F0E0167B46A4006CE113 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		A403F0F1167B54F2006CE113 /* comic_book_strips */ = {
+			isa = PBXGroup;
+			children = (
+				A403F117167B58F4006CE113 /* 1 副本.png */,
+				A403F118167B58F4006CE113 /* 2 副本.png */,
+				A403F119167B58F4006CE113 /* 3 副本.png */,
+				A403F11A167B58F4006CE113 /* 4 副本.png */,
+				A403F11B167B58F4006CE113 /* 5 副本.png */,
+				A403F11C167B58F4006CE113 /* 6 副本.png */,
+				A403F11D167B58F4006CE113 /* 7 副本.png */,
+				A403F11E167B58F4006CE113 /* 8 副本.png */,
+				A403F11F167B58F4006CE113 /* 9 副本.png */,
+				A403F0FB167B54F2006CE113 /* 10 副本.png */,
+				A403F0FC167B54F2006CE113 /* 11 副本.png */,
+				A403F0FD167B54F2006CE113 /* 12 副本.png */,
+				A403F0FE167B54F2006CE113 /* 13 副本.png */,
+				A403F0FF167B54F2006CE113 /* 14 副本.png */,
+				A403F100167B54F2006CE113 /* 15 副本.png */,
+				A403F101167B54F2006CE113 /* 16 副本.png */,
+			);
+			path = comic_book_strips;
+			sourceTree = "<group>";
+		};
 		A4405D8F166A48CA00BB22C4 = {
 			isa = PBXGroup;
 			children = (
@@ -793,17 +891,12 @@
 		A4405DB0166A48CB00BB22C4 /* NiuJiaoQi */ = {
 			isa = PBXGroup;
 			children = (
+				A403F0E0167B46A4006CE113 /* controller */,
+				A403F0DF167B469C006CE113 /* view */,
+				A403F0DD167B468C006CE113 /* model */,
 				A4405FBF166A5CD600BB22C4 /* cocos2d-iphone */,
 				A4405F3A166A48CE00BB22C4 /* AppDelegate.h */,
 				A4405F3B166A48CE00BB22C4 /* AppDelegate.m */,
-				A403E989166BA7C2004791A9 /* Sleepless01.h */,
-				A403E98A166BA7C2004791A9 /* Sleepless01.m */,
-				A4021CB9166CCA3D0087A202 /* Sleepless02.h */,
-				A4021CBA166CCA3D0087A202 /* Sleepless02.m */,
-				A4405F3D166A48CE00BB22C4 /* HelloWorldLayer.h */,
-				A4405F3E166A48CE00BB22C4 /* HelloWorldLayer.m */,
-				A4405F40166A48CE00BB22C4 /* IntroLayer.h */,
-				A4405F41166A48CE00BB22C4 /* IntroLayer.m */,
 				A4405DB1166A48CB00BB22C4 /* Resources */,
 				A4405DCF166A48CB00BB22C4 /* libs */,
 				A4405F36166A48CE00BB22C4 /* Supporting Files */,
@@ -814,8 +907,8 @@
 		A4405DB1166A48CB00BB22C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A4021CCC166CD3630087A202 /* sound */,
 				A403E8A4166B8A49004791A9 /* ccbResources */,
+				A4021CCC166CD3630087A202 /* sound */,
 				A4405DB2166A48CB00BB22C4 /* Default.png */,
 				A4405DB4166A48CB00BB22C4 /* Default@2x.png */,
 				A4405DB6166A48CB00BB22C4 /* Default-568h@2x.png */,
@@ -1370,6 +1463,23 @@
 				A4CCF61F166E523A00046990 /* Icon@2x.png in Resources */,
 				A4CCF620166E523A00046990 /* iTunesArtwork.png in Resources */,
 				A4CCF621166E523A00046990 /* iTunesArtwork@2x.png in Resources */,
+				A403F10B167B54F2006CE113 /* 10 副本.png in Resources */,
+				A403F10C167B54F2006CE113 /* 11 副本.png in Resources */,
+				A403F10D167B54F2006CE113 /* 12 副本.png in Resources */,
+				A403F10E167B54F2006CE113 /* 13 副本.png in Resources */,
+				A403F10F167B54F2006CE113 /* 14 副本.png in Resources */,
+				A403F110167B54F2006CE113 /* 15 副本.png in Resources */,
+				A403F111167B54F2006CE113 /* 16 副本.png in Resources */,
+				A403F120167B58F4006CE113 /* 1 副本.png in Resources */,
+				A403F121167B58F4006CE113 /* 2 副本.png in Resources */,
+				A403F122167B58F4006CE113 /* 3 副本.png in Resources */,
+				A403F123167B58F4006CE113 /* 4 副本.png in Resources */,
+				A403F124167B58F4006CE113 /* 5 副本.png in Resources */,
+				A403F125167B58F4006CE113 /* 6 副本.png in Resources */,
+				A403F126167B58F4006CE113 /* 7 副本.png in Resources */,
+				A403F127167B58F4006CE113 /* 8 副本.png in Resources */,
+				A403F128167B58F4006CE113 /* 9 副本.png in Resources */,
+				A403F12A167B6FA8006CE113 /* InteractivePaper.ccbi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1496,6 +1606,8 @@
 				A464F228166B645E00EB0DB3 /* CCNode+CCBRelativePositioning.m in Sources */,
 				A403E98B166BA7C3004791A9 /* Sleepless01.m in Sources */,
 				A4021CBB166CCA3D0087A202 /* Sleepless02.m in Sources */,
+				A403F0E3167B4717006CE113 /* SubjectsModel.m in Sources */,
+				A403F0F0167B50E8006CE113 /* InteractivePaper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
