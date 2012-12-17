@@ -15,11 +15,17 @@
 @interface InteractivePaper : CCLayer {
     CCBAnimationManager* animationManager;
     CCSprite *backgroundSprite;
+    //Sound buttons
+    CCMenuItem *btn_sound_play;
+    CCMenuItem *btn_sound_stop;
 }
 //Background Sprite
 @property(nonatomic,retain) CCSprite* backgroundSprite;
 //Play animation
 @property(nonatomic,retain) CCBAnimationManager* animationManager;
+//Sound buttons
+@property(nonatomic,retain) CCMenuItem *btn_sound_play;
+@property(nonatomic,retain) CCMenuItem *btn_sound_stop;
 //Animation handler
 - (void) onAnimation:(id)sender;
 // When pressing the back button, the currently running scene
@@ -27,6 +33,11 @@
 - (void) onNext:(id)sender;
 - (void) onPrevious:(id)sender;
 //Play or pause sound effect
-- (void) onSound:(id)sender;
+//- (void) onSound:(id)sender;
+- (void) onSoundPlay:(id)sender;
+- (void) onSoundStop:(id)sender;
+- (void) onSoundPause:(id)sender;
+//Return home menu
+- (void) onHome:(id)sender;
 
 @end

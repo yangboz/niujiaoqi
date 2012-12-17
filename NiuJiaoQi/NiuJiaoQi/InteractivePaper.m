@@ -13,10 +13,11 @@
 
 @synthesize backgroundSprite;
 @synthesize animationManager;
+@synthesize btn_sound_play,btn_sound_stop;
 
 //Constants
 #define COMIC_BOOK_STRIP_SUFFIX @" 副本.png"
-#define MAX_NUM_CBOOK_STRIPS 15
+#define MAX_NUM_CBOOK_STRIPS 16
 #define CCBI_NAME @"InteractivePaper.ccbi"
 #define CCBI_SOUND_PREFIX @"njq_sound_"
 #define CCBI_SOUND_SUFFIX @".mp3"
@@ -38,7 +39,23 @@
         [self addChild:anewBG];
         CGSize winSize = [[CCDirector sharedDirector] winSize];
         anewBG.position = ccp(winSize.width/2,winSize.height/2);
+        //Sound buttons
+        CCMenuItem *_plusItem; 
+        CCMenuItem *_minusItem;
+        _plusItem = [[CCMenuItemImage itemWithNormalImage:@"btn_sound_play.png" 
+                                            selectedImage:@"btn_sound_play.png" target:nil selector:nil] retain];
+        _minusItem = [[CCMenuItemImage itemWithNormalImage:@"btn_sound_stop.png" 
+                                             selectedImage:@"btn_sound_stop.png" target:nil selector:nil] retain];
+        //
+        CCMenuItemToggle *toggleItem = [CCMenuItemToggle itemWithTarget:self 
+                                                               selector:@selector(onSoundPlay:) items:_plusItem, _minusItem, nil];
+        CCMenu *toggleMenu = [CCMenu menuWithItems:toggleItem, nil];
+        toggleMenu.position = ccp(winSize.width/2,winSize.height/2);
+        [self addChild:toggleMenu z:999];
     }
+    //Preload staff
+    [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:@"njq_sound_01.mp3"];
+    //
     return self;
 }
 
@@ -84,9 +101,35 @@
     
 }
 //Play or pause sound effect
-- (void) onSound:(id)sender
+//- (void) onSound:(id)sender
+- (void) onSoundPlay:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"njq_sound_01.mp3" loop:YES];
+    if([[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying])
+    {
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"njq_sound_01.mp3" loop:YES];
+    }else {
+        [[SimpleAudioEngine sharedEngine] resumeBackgroundMusic];
+    }
+    //
+    [btn_sound_stop setVisible:YES];
+    [btn_sound_play setVisible:NO];
+}
+- (void) onSoundStop:(id)sender
+{
+    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    //
+    [btn_sound_stop setVisible:NO];
+    [btn_sound_play setVisible:YES];
+}
+- (void) onSoundPause:(id)sender
+{
+    [[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
+}
+
+//Return home menu
+- (void) onHome:(id)sender
+{
+    //TODO:
 }
 
 //
@@ -94,6 +137,13 @@
 {
     [backgroundSprite release];
     [animationManager release];
+    [btn_sound_play release];
+    [btn_sound_stop release];
+    backgroundSprite = nil;
+    animationManager = nil;
+    btn_sound_play = nil;
+    btn_sound_stop = nil;
+    //
     [super dealloc];
 }
 
