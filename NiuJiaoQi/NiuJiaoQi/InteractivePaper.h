@@ -18,6 +18,8 @@
     //Sound buttons
     CCMenuItem *btn_sound_play;
     CCMenuItem *btn_sound_stop;
+    //MenuItems layer
+    CCLayer *layer_menuItems;
 }
 //Background Sprite
 @property(nonatomic,retain) CCSprite* backgroundSprite;
@@ -26,6 +28,8 @@
 //Sound buttons
 @property(nonatomic,retain) CCMenuItem *btn_sound_play;
 @property(nonatomic,retain) CCMenuItem *btn_sound_stop;
+//Layers
+@property(nonatomic,retain) CCLayer *layer_menuItems;
 //Animation handler
 - (void) onAnimation:(id)sender;
 // When pressing the back button, the currently running scene

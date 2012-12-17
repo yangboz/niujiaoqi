@@ -14,6 +14,7 @@
 @synthesize backgroundSprite;
 @synthesize animationManager;
 @synthesize btn_sound_play,btn_sound_stop;
+@synthesize layer_menuItems;
 
 //Constants
 #define COMIC_BOOK_STRIP_SUFFIX @" 副本.png"
@@ -21,6 +22,12 @@
 #define CCBI_NAME @"InteractivePaper.ccbi"
 #define CCBI_SOUND_PREFIX @"njq_sound_"
 #define CCBI_SOUND_SUFFIX @".mp3"
+#define MC_SUFFIX_PLIST @".plist"
+#define MC_SUFFIX_PNG @".png"
+#define MC_INFIX_PLIST @"000"
+
+//Variables
+CGSize winSize;
 
 -(id) init
 {
@@ -37,21 +44,17 @@
         //Anew background to overlay
         CCSprite *anewBG = [CCSprite spriteWithFile:bgFileName];
         [self addChild:anewBG];
-        CGSize winSize = [[CCDirector sharedDirector] winSize];
+        winSize = [[CCDirector sharedDirector] winSize];
         anewBG.position = ccp(winSize.width/2,winSize.height/2);
-        //Sound buttons
-        CCMenuItem *_plusItem; 
-        CCMenuItem *_minusItem;
-        _plusItem = [[CCMenuItemImage itemWithNormalImage:@"btn_sound_play.png" 
-                                            selectedImage:@"btn_sound_play.png" target:nil selector:nil] retain];
-        _minusItem = [[CCMenuItemImage itemWithNormalImage:@"btn_sound_stop.png" 
-                                             selectedImage:@"btn_sound_stop.png" target:nil selector:nil] retain];
-        //
-        CCMenuItemToggle *toggleItem = [CCMenuItemToggle itemWithTarget:self 
-                                                               selector:@selector(onSoundPlay:) items:_plusItem, _minusItem, nil];
-        CCMenu *toggleMenu = [CCMenu menuWithItems:toggleItem, nil];
-        toggleMenu.position = ccp(winSize.width/2,winSize.height/2);
-        [self addChild:toggleMenu z:999];
+        //Animations assemble
+        NSMutableArray *fileNames = [NSMutableArray arrayWithObjects:
+                              @"njq_s1_mc_fox", 
+                              @"njq_s1_mc_pig", 
+                              @"njq_s1_mc_bear", 
+                              @"njq_s1_mc_text", 
+                              nil];
+        [self assembleAnimations:fileNames];
+
     }
     //Preload staff
     [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:@"njq_sound_01.mp3"];
@@ -144,7 +147,55 @@
     btn_sound_play = nil;
     btn_sound_stop = nil;
     //
+    [[CCSpriteFrameCache sharedSpriteFrameCache] removeUnusedSpriteFrames];
+    //
     [super dealloc];
 }
 
+-(void)assembleAnimations:(NSMutableArray *)fileNames
+{
+    int count,i;
+    count = [fileNames count];
+    //
+    for (i = 0; i < count; i++)
+    {
+        NSLog (@"fileNames %i = %@", i, [fileNames objectAtIndex: i]);
+        CCSprite *_bear;
+        CCAction *_walkAction;
+        // This loads an image of the same name (but ending in png), and goes through the
+        // plist to add definitions of each frame to the cache.
+        NSString *fileNamePlist = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
+        fileNamePlist = [fileNamePlist stringByAppendingString:MC_SUFFIX_PLIST];
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:fileNamePlist];        
+        
+        // Create a sprite sheet with the Happy Bear images
+        NSString *fileNamePNG = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
+        fileNamePNG = [fileNamePNG stringByAppendingString:MC_SUFFIX_PNG];
+        CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:fileNamePNG];
+        [self addChild:spriteSheet];
+        
+        // Load up the frames of our animation
+        NSMutableArray *walkAnimFrames = [NSMutableArray array];
+        for(int j = 0; j <= 9; ++j) {
+            NSString *frameName = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
+            frameName = [frameName stringByAppendingString:MC_INFIX_PLIST];
+            //
+            [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@%d", frameName,j]]];
+        }
+        CCAnimation *walkAnim = [CCAnimation animationWithFrames:walkAnimFrames delay:0.1f];
+        
+        // Create a sprite for our bear,default index to 0
+        NSString *defaultFrameName = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
+        defaultFrameName = [defaultFrameName stringByAppendingString:MC_INFIX_PLIST];
+        defaultFrameName = [defaultFrameName stringByAppendingString:@"0"];
+        //
+        _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
+        _bear.position = ccp(winSize.width/2, winSize.height/2);
+        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
+        [_bear runAction:_walkAction];
+        [spriteSheet addChild:_bear];
+
+    }
+        
+}
 @end

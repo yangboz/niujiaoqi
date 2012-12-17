@@ -1029,7 +1029,7 @@
 				<key>displayName</key>
 				<string>CCLayer_MenuItems</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>layer_menuItems</string>
 				<key>memberVarAssignmentType</key>
 				<integer>0</integer>
 				<key>properties</key>
@@ -1107,6 +1107,8 @@
 						<false/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
