@@ -1,0 +1,43 @@
+{
+    "metadata": {
+        "format": 0,
+        "strips": 16,
+        "title": "NiuJiaoQi"
+    },
+    "contents": [
+               {
+               "texts": [
+                         {
+                         "textureFileName": "njq_s1_text",
+                         "textureFileExtension": ".png",
+                         "frames": 10
+                         }
+                         ],
+               "sprites": [],
+               "buttons": [],
+               "movieclips": [
+                              {
+                              "textureFileName": "njq_s1_mc_bear",
+                              "textureFileExtension": ".png",
+                              "frames": 10
+                              },
+                              {
+                              "textureFileName": "njq_s1_mc_fox",
+                              "textureFileExtension": ".png",
+                              "frames": 10
+                              },
+                              {
+                              "textureFileName": "njq_s1_mc_pig",
+                              "textureFileExtension": ".png",
+                              "frames": 10
+                              }
+                              ]
+               },
+               {
+               "texts": [],
+               "sprites": [],
+               "buttons": [],
+               "movieclips": []
+               }
+               ]
+}

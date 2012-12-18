@@ -11,6 +11,8 @@
 #import "IntroLayer.h"
 #import "HelloWorldLayer.h"
 #import "CCBReader.h"
+#import "JSONKit.h"
+#import "BookStripsVO.h"
 
 #pragma mark - IntroLayer
 
@@ -61,11 +63,57 @@
 -(void) onEnter
 {
 	[super onEnter];
-	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] ]];
+    //
+    CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"InteractivePaper.ccbi"];
+    
+    //        layer.isTouchEnabled = YES;
+    
+    CCScene *scene = [CCScene node];
+    [scene addChild:layer];
+//    [[CCDirector sharedDirector] runWithScene: scene];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:scene]];
+    //
+//	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[HelloWorldLayer scene] ]];
     
     // Use the CCBReader to load the HelloCocosBuilder scene 
     // from the ccbi-file. 
 //    CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"HelloCocosBuilder.ccbi" owner:self]; 
 //    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:scene ]];
+    //Parser
+    [self parseBookStripsData];
+}
+//
+-(void)parseBookStripsData
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"bookStrips" ofType:@"json"];
+    NSLog(@"bookStrips data path: %@", path);  
+    NSData *content = [NSData dataWithContentsOfFile:path];
+    NSDictionary *jsonKitData = [content objectFromJSONData];
+    NSLog(@"bookStrips raw dict:"); 
+    NSEnumerator *enumerator = [jsonKitData keyEnumerator];
+    id key;
+    while ((key = [enumerator nextObject]))
+    {
+        NSLog(@"%@", [jsonKitData objectForKey: key]);
+    }
+    // Pretend like you've called a REST service here and it returns a string.
+    // We'll just create a string from the sample json constant at the top
+    // of this file.
+    NSString *jsonKitStr = [jsonKitData JSONString];
+//    NSLog(@"string from JSONKit: \n%@", jsonKitStr);
+    // 1) Create a dictionary, from the result string,
+    // using JSONKit's NSString category; objectFromJSONString.
+    NSDictionary* dict = [jsonKitStr objectFromJSONString];
+    
+    // 2) Dump the dictionary to the debug console.
+    NSLog(@"Dictionary => %@\n", dict); 
+    
+    // 3) Now, let's create a Person object from the dictionary.
+    BookStripsVO* bookStripsVO = [[[BookStripsVO alloc] initWithDictionary:dict] autorelease];
+    
+    // 4) Dump the contents of the person object
+    // to the debug console.
+    NSLog(@"BookStripsVO => %@\n", bookStripsVO);
+    NSLog(@"BookStripsVO.metadata.title: %@\n", [[bookStripsVO metadata] title]);
 }
 @end

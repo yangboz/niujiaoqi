@@ -102,4 +102,8 @@ dependencies: \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/utlist.h \
   NiuJiaoQi/libs/kazmath/include/kazmath/GL/matrix.h \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HelloWorldLayer.h \
-  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.h
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/JSONKit.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookStripsVO.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/Jastor.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookMetadataVO.h
