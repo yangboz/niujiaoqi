@@ -46,15 +46,17 @@ CGSize winSize;
         [self addChild:anewBG];
         winSize = [[CCDirector sharedDirector] winSize];
         anewBG.position = ccp(winSize.width/2,winSize.height/2);
-        //Animations assemble
-        NSMutableArray *fileNames = [NSMutableArray arrayWithObjects:
-                              @"njq_s1_mc_fox", 
-                              @"njq_s1_mc_pig", 
-                              @"njq_s1_mc_bear", 
-                              @"njq_s1_mc_text", 
-                              nil];
-        [self assembleAnimations:fileNames];
-
+        //Page elements(text,button,sprite,movieclip...) display
+        int pageIndex = [SubjectsModel getLevel]-1;//Notice:page index 0 based.
+        BookContentsVO *bookContents = [SubjectsModel getContents];
+        NSLog(@"BookContentsVO => %@\n", bookContents);
+        //
+        PageContentVO *pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
+        if(pageIndex<1)
+        {
+            [self displayPageElements:pageIndex elements:[pageContent texts]];
+            [self displayPageElements:pageIndex elements:[pageContent movieclips]];
+        }
     }
     //Preload staff
     [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:@"njq_sound_01.mp3"];
@@ -152,45 +154,52 @@ CGSize winSize;
     [super dealloc];
 }
 
--(void)assembleAnimations:(NSMutableArray *)fileNames
+-(void)displayPageElements:(int)pageIndex elements:(NSArray *)elements
 {
-    int count,i;
-    count = [fileNames count];
     //
-    for (i = 0; i < count; i++)
+    int mcCount,i;
+    //Movie clip counter
+    mcCount = [elements count];
+    NSLog(@"PageMC:%@",[[elements objectAtIndex:0] textureFileName]);
+    NSString *textureFileName;
+    //For MC
+    for (i = 0; i < mcCount; i++)
     {
-        NSLog (@"fileNames %i = %@", i, [fileNames objectAtIndex: i]);
+        textureFileName = [(PageElementVO *)[elements objectAtIndex: i] textureFileName];
+        NSString *textureFileExtension = [(PageElementVO *)[elements objectAtIndex: i] textureFileExtension];
+        NSNumber *frames = [(PageElementVO *)[elements objectAtIndex: i] frames];
+        int mcX = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
+        int mcY = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
+        NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
+        //MovieClip assemble(bear for example)
         CCSprite *_bear;
         CCAction *_walkAction;
         // This loads an image of the same name (but ending in png), and goes through the
         // plist to add definitions of each frame to the cache.
-        NSString *fileNamePlist = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
-        fileNamePlist = [fileNamePlist stringByAppendingString:MC_SUFFIX_PLIST];
+        NSString *fileNamePlist = [textureFileName stringByAppendingString:MC_SUFFIX_PLIST];
         [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:fileNamePlist];        
         
         // Create a sprite sheet with the Happy Bear images
-        NSString *fileNamePNG = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
-        fileNamePNG = [fileNamePNG stringByAppendingString:MC_SUFFIX_PNG];
+        NSString *fileNamePNG = [textureFileName stringByAppendingString:textureFileExtension];
         CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:fileNamePNG];
         [self addChild:spriteSheet];
         
         // Load up the frames of our animation
         NSMutableArray *walkAnimFrames = [NSMutableArray array];
-        for(int j = 0; j <= 9; ++j) {
-            NSString *frameName = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
-            frameName = [frameName stringByAppendingString:MC_INFIX_PLIST];
+        for(int j = 0; j < [frames intValue]; ++j) {
+            //
+            NSString *frameName = [textureFileName stringByAppendingString:MC_INFIX_PLIST];
             //
             [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@%d", frameName,j]]];
         }
         CCAnimation *walkAnim = [CCAnimation animationWithFrames:walkAnimFrames delay:0.1f];
         
-        // Create a sprite for our bear,default index to 0
-        NSString *defaultFrameName = [[NSString alloc] initWithString:[fileNames objectAtIndex: i]];
-        defaultFrameName = [defaultFrameName stringByAppendingString:MC_INFIX_PLIST];
+        // Create a sprite for our MC,default index to 0
+        NSString *defaultFrameName = [textureFileName stringByAppendingString:MC_INFIX_PLIST];
         defaultFrameName = [defaultFrameName stringByAppendingString:@"0"];
         //
         _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
-        _bear.position = ccp(winSize.width/2, winSize.height/2);
+        _bear.position = ccp(mcX, mcY);
         _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
         [_bear runAction:_walkAction];
         [spriteSheet addChild:_bear];

@@ -106,4 +106,8 @@ dependencies: \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/JSONKit.h \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookStripsVO.h \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/Jastor.h \
-  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookMetadataVO.h
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookMetadataVO.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookContentsVO.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/PageContentVO.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/PageElementVO.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/SubjectsModel.h

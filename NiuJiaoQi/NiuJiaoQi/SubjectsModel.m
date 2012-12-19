@@ -15,7 +15,8 @@
 
 static SubjectsModel *sharedInstance = nil;
 static int level=1;
-static NSMutableArray *data = nil;
+static BookMetadataVO *metadata = nil;
+static BookContentsVO *contents = nil;
 
 //In your class factory method for the class (named something like “sharedInstance” or “sharedManager”), it generates an instance of the class but only if the static instance is nil.
 +(SubjectsModel *)sharedInstance
@@ -62,14 +63,24 @@ static NSMutableArray *data = nil;
 	level = value;
 }
 
-+(NSMutableArray *)getData
++(BookMetadataVO *)getMetadata
 {
-	return data;
+	return metadata;
 }
 
-+(void)setData:(NSMutableArray *)value
++(void)setMetadata:(BookMetadataVO *)value
 {
-	data = value;
+	metadata = value;
+}
+
++(BookContentsVO *)getContents
+{
+	return contents;
+}
+
++(void)setContents:(BookContentsVO *)value
+{
+	contents = value;
 }
 
 @end

@@ -11,6 +11,8 @@
 #import "SimpleAudioEngine.h"
 #import "CCBReader.h"
 #import "CCBAnimationManager.h"
+#import "PageContentVO.h"
+#import "PageElementVO.h"
 
 @interface InteractivePaper : CCLayer {
     CCBAnimationManager* animationManager;

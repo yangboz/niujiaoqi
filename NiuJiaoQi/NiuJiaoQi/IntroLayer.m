@@ -16,6 +16,7 @@
 #import "BookContentsVO.h"
 #import "PageContentVO.h"
 #import "PageElementVO.h"
+#import "SubjectsModel.h"
 
 #pragma mark - IntroLayer
 
@@ -34,6 +35,11 @@
 	// add layer as a child to scene
 	[scene addChild: layer];
 	
+    //At first:Configuration JSON data parser
+    //    [self parseBookStripsData];
+    [self parseBookMetadata];
+    [self parseBookContents];
+    
 	// return the scene
 	return scene;
 }
@@ -59,14 +65,14 @@
 		// add the label as a child to this Layer
 		[self addChild: background];
 	}
-	
+    //
 	return self;
 }
 
 -(void) onEnter
 {
 	[super onEnter];
-    //
+    //Scene transition
     CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"InteractivePaper.ccbi"];
     
     //        layer.isTouchEnabled = YES;
@@ -82,10 +88,6 @@
     // from the ccbi-file. 
 //    CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"HelloCocosBuilder.ccbi" owner:self]; 
 //    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:scene ]];
-    //Parser
-//    [self parseBookStripsData];
-    [self parseBookMetadata];
-    [self parseBookContents];
 }
 //
 -(void)parseBookStripsData
@@ -126,7 +128,7 @@
     NSLog(@"BookStripsVO.metadata.title: %@\n", [[bookStripsVO metadata] title]);
 }
 
--(void)parseBookMetadata
++(void)parseBookMetadata
 {
     //Test data,metadata.json,contents.json
     NSString *path = [[NSBundle mainBundle] pathForResource:@"metadata" ofType:@"json"];
@@ -161,9 +163,11 @@
     // to the debug console.
     NSLog(@"BookMetadataVO => %@\n", bookStripsVO);
     NSLog(@"BookMetadataVO.title: %@\n", [bookStripsVO title]);
+    //Save it to data model.
+    [SubjectsModel setMetadata:bookStripsVO];
 }
 
--(void)parseBookContents
++(void)parseBookContents
 {
     //Test data,metadata.json,contents.json
     NSString *path = [[NSBundle mainBundle] pathForResource:@"contents" ofType:@"json"];
@@ -198,5 +202,7 @@
     // to the debug console.
     NSLog(@"BookContentsVO => %@\n", bookStripsVO);
     NSLog(@"BookContentsVO[0].textureFileName: %@\n", [[(PageContentVO *)[[bookStripsVO contents] objectAtIndex:0] texts]objectAtIndex:0]);
+    //Save it to data model.
+    [SubjectsModel setContents:bookStripsVO];
 }
 @end

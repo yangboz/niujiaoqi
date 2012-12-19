@@ -1,6 +1,6 @@
 //
 //  SubjectsModel.h
-//  BrainQuiz
+//  NiuJiaoQi
 //
 //  Created by zhou Yangbo on 11-8-20.
 //  Copyright 2011 GODPAPER. All rights reserved.
@@ -17,9 +17,11 @@
 +(SubjectsModel *)sharedInstance;
 +(int)getLevel;
 +(void)setLevel:(int)value;
-
-+(NSMutableArray *)getData;
-+(void)setData:(NSMutableArray *)value;
-
+//Book metadata
++(BookMetadataVO *)getMetadata;
++(void)setMetadata:(BookMetadataVO *)value;
+//Book contents
++(BookContentsVO *)getContents;
++(void)setContents:(BookContentsVO *)value;
 
 @end

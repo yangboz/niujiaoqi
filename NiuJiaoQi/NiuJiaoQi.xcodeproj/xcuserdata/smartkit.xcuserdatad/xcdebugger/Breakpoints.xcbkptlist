@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NiuJiaoQi/IntroLayer.m"
-         timestampString = "377621159.051328"
+         timestampString = "377625551.885551"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "112"
-         endingLineNumber = "112"
+         startingLineNumber = "114"
+         endingLineNumber = "114"
          landmarkName = "-parseBookStripsData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NiuJiaoQi/IntroLayer.m"
-         timestampString = "377621159.051328"
+         timestampString = "377625551.885551"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "118"
-         endingLineNumber = "118"
+         startingLineNumber = "120"
+         endingLineNumber = "120"
          landmarkName = "-parseBookStripsData"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NiuJiaoQi/IntroLayer.m"
-         timestampString = "377621159.051328"
+         timestampString = "377625551.885551"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "125"
-         endingLineNumber = "125"
+         startingLineNumber = "127"
+         endingLineNumber = "127"
          landmarkName = "-parseBookStripsData"
          landmarkType = "5">
       </FileBreakpoint>
