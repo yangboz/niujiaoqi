@@ -10,6 +10,6 @@
 
 @interface BookContentsVO : Jastor
 
-@property (nonatomic, retain) NSArray *pageContents;
+@property (nonatomic, retain) NSArray *contents;
 
 @end

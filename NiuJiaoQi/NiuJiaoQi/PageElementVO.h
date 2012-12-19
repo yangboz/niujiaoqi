@@ -13,5 +13,7 @@
 @property (nonatomic, copy) NSString *textureFileName;
 @property (nonatomic, copy) NSNumber *frames;
 @property (nonatomic, copy) NSString *textureFileExtension;
+@property (nonatomic, copy) NSNumber *x;
+@property (nonatomic, copy) NSNumber *y;
 
 @end

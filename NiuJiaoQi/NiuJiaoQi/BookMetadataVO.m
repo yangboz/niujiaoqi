@@ -10,6 +10,6 @@
 
 @implementation BookMetadataVO
 
-@synthesize format,strips,title;
+@synthesize format,strips,title,fps;
 
 @end

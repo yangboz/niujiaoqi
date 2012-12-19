@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "BookMetadataVO.h"
+#import "BookContentsVO.h"
 
 @interface SubjectsModel : NSObject {
 	
@@ -19,5 +20,6 @@
 
 +(NSMutableArray *)getData;
 +(void)setData:(NSMutableArray *)value;
+
 
 @end

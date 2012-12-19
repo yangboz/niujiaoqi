@@ -10,8 +10,9 @@
 
 @interface BookMetadataVO : Jastor
 
-@property (nonatomic, copy) NSString *format;
+@property (nonatomic, copy) NSNumber *format;
 @property (nonatomic, copy) NSNumber *strips;
 @property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSNumber *fps;
 
 @end

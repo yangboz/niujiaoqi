@@ -1,4 +1,17 @@
+njq_btn_home_normal.png
+njq_btn_home_selected.png
+njq_btn_next_disabled.png
+njq_btn_next_normal.png
+njq_btn_next_selected.png
+njq_btn_pause_normal.png
+njq_btn_pause_selected.png
+njq_btn_play_normal.png
+njq_btn_play_selected.png
+njq_btn_prev_disabled.png
+njq_btn_prev_normal.png
+njq_btn_prev_selected.png
 1 副本.png
+1 副本_.png
 10 副本.png
 11 副本.png
 12 副本.png
@@ -14,18 +27,18 @@
 7 副本.png
 8 副本.png
 9 副本.png
-njq_btn_curl.png
-njq_btn_home.png
-njq_btn_sound.png
-njq_btn_sound_pause.png
-njq_btn_sound_play.png
-njq_btn_sound_stop.png
+njq_s1_mc_bear.plist
+njq_s1_mc_bear.png
+njq_s1_mc_fox.plist
+njq_s1_mc_fox.png
+njq_s1_mc_pig.plist
+njq_s1_mc_pig.png
+njq_s1_mc_text.plist
+njq_s1_mc_text.png
 njq_sprite_backgroud.png
 njq_sprite_foreground.png
 njq_txt_1.png
 njq_txt_2.png
-nqj_btn_curl_next.png
-nqj_btn_curl_prev.png
 狼POSS20001.png
 狼POSS20002.png
 狼POSS20003.png

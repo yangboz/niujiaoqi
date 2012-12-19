@@ -63,7 +63,7 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>stop</string>
+								<string>pause</string>
 								<key>memberVarAssignmentName</key>
 								<string>btn_sound_stop</string>
 								<key>memberVarAssignmentType</key>
@@ -141,7 +141,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_sound_pause.png</string>
+											<string>ccbResources/buttons/njq_btn_pause_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -152,7 +152,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_sound_pause.png</string>
+											<string>ccbResources/buttons/njq_btn_pause_selected.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -254,7 +254,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_sound_play.png</string>
+											<string>ccbResources/buttons/njq_btn_play_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -265,7 +265,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_sound_play.png</string>
+											<string>ccbResources/buttons/njq_btn_play_selected.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -469,7 +469,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/nqj_btn_curl_prev.png</string>
+											<string>ccbResources/buttons/njq_btn_prev_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -480,7 +480,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string></string>
+											<string>ccbResources/buttons/njq_btn_prev_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -491,7 +491,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string></string>
+											<string>ccbResources/buttons/njq_btn_prev_disabled.png</string>
 										</array>
 									</dict>
 								</array>
@@ -684,7 +684,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/nqj_btn_curl_next.png</string>
+											<string>ccbResources/buttons/njq_btn_next_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -695,7 +695,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/nqj_btn_curl_next.png</string>
+											<string>ccbResources/buttons/njq_btn_next_selected.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -706,7 +706,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string></string>
+											<string>ccbResources/buttons/njq_btn_next_disabled.png</string>
 										</array>
 									</dict>
 								</array>
@@ -899,7 +899,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_home.png</string>
+											<string>ccbResources/buttons/njq_btn_home_normal.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -910,7 +910,7 @@
 										<key>value</key>
 										<array>
 											<string></string>
-											<string>ccbResources/njq_btn_home.png</string>
+											<string>ccbResources/buttons/njq_btn_home_selected.png</string>
 										</array>
 									</dict>
 									<dict>
@@ -1107,8 +1107,6 @@
 						<false/>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>

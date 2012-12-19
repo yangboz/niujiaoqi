@@ -13,6 +13,9 @@
 #import "CCBReader.h"
 #import "JSONKit.h"
 #import "BookStripsVO.h"
+#import "BookContentsVO.h"
+#import "PageContentVO.h"
+#import "PageElementVO.h"
 
 #pragma mark - IntroLayer
 
@@ -80,11 +83,14 @@
 //    CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"HelloCocosBuilder.ccbi" owner:self]; 
 //    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:scene ]];
     //Parser
-    [self parseBookStripsData];
+//    [self parseBookStripsData];
+    [self parseBookMetadata];
+    [self parseBookContents];
 }
 //
 -(void)parseBookStripsData
 {
+    //Test data,metadata.json,contents.json
     NSString *path = [[NSBundle mainBundle] pathForResource:@"bookStrips" ofType:@"json"];
     NSLog(@"bookStrips data path: %@", path);  
     NSData *content = [NSData dataWithContentsOfFile:path];
@@ -109,11 +115,88 @@
     NSLog(@"Dictionary => %@\n", dict); 
     
     // 3) Now, let's create a Person object from the dictionary.
-    BookStripsVO* bookStripsVO = [[[BookStripsVO alloc] initWithDictionary:dict] autorelease];
+    BookStripsVO* bookStripsVO = [[BookStripsVO alloc] initWithDictionary:dict];
+    
+//    BookMetadataVO* bookStripsVO = [[BookMetadataVO alloc] initWithDictionary:dict];
+//    BookContentsVO* bookStripsVO = [[BookContentsVO alloc] initWithDictionary:dict];
     
     // 4) Dump the contents of the person object
     // to the debug console.
     NSLog(@"BookStripsVO => %@\n", bookStripsVO);
     NSLog(@"BookStripsVO.metadata.title: %@\n", [[bookStripsVO metadata] title]);
+}
+
+-(void)parseBookMetadata
+{
+    //Test data,metadata.json,contents.json
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"metadata" ofType:@"json"];
+    NSLog(@"bookStrips metadata path: %@", path);  
+    NSData *content = [NSData dataWithContentsOfFile:path];
+    NSDictionary *jsonKitData = [content objectFromJSONData];
+    NSLog(@"bookStrips metadata raw dict:"); 
+    NSEnumerator *enumerator = [jsonKitData keyEnumerator];
+    id key;
+    while ((key = [enumerator nextObject]))
+    {
+        NSLog(@"%@", [jsonKitData objectForKey: key]);
+    }
+    // Pretend like you've called a REST service here and it returns a string.
+    // We'll just create a string from the sample json constant at the top
+    // of this file.
+    NSString *jsonKitStr = [jsonKitData JSONString];
+    //    NSLog(@"string from JSONKit: \n%@", jsonKitStr);
+    // 1) Create a dictionary, from the result string,
+    // using JSONKit's NSString category; objectFromJSONString.
+    NSDictionary* dict = [jsonKitStr objectFromJSONString];
+    
+    // 2) Dump the dictionary to the debug console.
+    NSLog(@"Dictionary => %@\n", dict); 
+    
+    // 3) Now, let's create a Person object from the dictionary.
+    
+        BookMetadataVO* bookStripsVO = [[BookMetadataVO alloc] initWithDictionary:dict];
+    //    BookContentsVO* bookStripsVO = [[BookContentsVO alloc] initWithDictionary:dict];
+    
+    // 4) Dump the contents of the person object
+    // to the debug console.
+    NSLog(@"BookMetadataVO => %@\n", bookStripsVO);
+    NSLog(@"BookMetadataVO.title: %@\n", [bookStripsVO title]);
+}
+
+-(void)parseBookContents
+{
+    //Test data,metadata.json,contents.json
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"contents" ofType:@"json"];
+    NSLog(@"bookStrips contents path: %@", path);  
+    NSData *content = [NSData dataWithContentsOfFile:path];
+    NSDictionary *jsonKitData = [content objectFromJSONData];
+    NSLog(@"bookStrips contents raw dict:"); 
+    NSEnumerator *enumerator = [jsonKitData keyEnumerator];
+    id key;
+    while ((key = [enumerator nextObject]))
+    {
+        NSLog(@"%@", [jsonKitData objectForKey: key]);
+    }
+    // Pretend like you've called a REST service here and it returns a string.
+    // We'll just create a string from the sample json constant at the top
+    // of this file.
+    NSString *jsonKitStr = [jsonKitData JSONString];
+    //    NSLog(@"string from JSONKit: \n%@", jsonKitStr);
+    // 1) Create a dictionary, from the result string,
+    // using JSONKit's NSString category; objectFromJSONString.
+    NSDictionary* dict = [jsonKitStr objectFromJSONString];
+    
+    // 2) Dump the dictionary to the debug console.
+    NSLog(@"Dictionary => %@\n", dict); 
+    
+    // 3) Now, let's create a Person object from the dictionary.
+    
+    //    BookMetadataVO* bookStripsVO = [[BookMetadataVO alloc] initWithDictionary:dict];
+        BookContentsVO* bookStripsVO = [[BookContentsVO alloc] initWithDictionary:dict];
+    
+    // 4) Dump the contents of the person object
+    // to the debug console.
+    NSLog(@"BookContentsVO => %@\n", bookStripsVO);
+    NSLog(@"BookContentsVO[0].textureFileName: %@\n", [[(PageContentVO *)[[bookStripsVO contents] objectAtIndex:0] texts]objectAtIndex:0]);
 }
 @end

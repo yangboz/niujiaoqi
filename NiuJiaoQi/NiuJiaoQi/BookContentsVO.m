@@ -11,9 +11,9 @@
 
 @implementation BookContentsVO
 
-@synthesize pageContents;
+@synthesize contents;
 
-+ (Class)pageContents_class {
++ (Class)contents_class {
     return [PageContentVO class];
 }
 

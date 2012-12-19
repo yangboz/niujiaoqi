@@ -20,7 +20,7 @@
 + (Class)sprites_class {
     return [PageElementVO class];
 }
-+ (Class)buttonss_class {
++ (Class)buttons_class {
     return [PageElementVO class];
 }
 + (Class)movieclips_class {
