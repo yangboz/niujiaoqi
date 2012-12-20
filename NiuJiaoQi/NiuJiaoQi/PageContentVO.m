@@ -11,7 +11,7 @@
 
 @implementation PageContentVO
 
-@synthesize texts,sprites,buttons,movieclips;
+@synthesize texts,sprites,buttons,movieclips,background,sound;
 
 
 + (Class)texts_class {

@@ -14,5 +14,7 @@
 @property (nonatomic, retain) NSArray *sprites;
 @property (nonatomic, retain) NSArray *buttons;
 @property (nonatomic, retain) NSArray *movieclips;
+@property (nonatomic, copy) NSString *background;
+@property (nonatomic, copy) NSString *sound;
 
 @end

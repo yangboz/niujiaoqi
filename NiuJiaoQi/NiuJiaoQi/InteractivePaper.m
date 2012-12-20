@@ -28,38 +28,28 @@
 
 //Variables
 CGSize winSize;
+PageContentVO *pageContent;
 
 -(id) init
 {
 	if ((self=[super init])) {
-        int currentLevel = [SubjectsModel getLevel];
-        //ccbi name split-joint
-        NSString *levelStr = [NSString stringWithFormat:@"%d", currentLevel];
-        NSMutableString *bgFileName = [NSMutableString stringWithString:levelStr];
-        [bgFileName appendString:COMIC_BOOK_STRIP_SUFFIX];
-        //Update background sprite
-//        CCTexture2D* tex = [[CCTextureCache sharedTextureCache] addImage:bgFileName];
-//        [self.backgroundSprite setTexture: tex];
-//        [self removeChild:backgroundSprite];
-        //Anew background to overlay
-        CCSprite *anewBG = [CCSprite spriteWithFile:bgFileName];
-        [self addChild:anewBG];
-        winSize = [[CCDirector sharedDirector] winSize];
-        anewBG.position = ccp(winSize.width/2,winSize.height/2);
         //Page elements(text,button,sprite,movieclip...) display
         int pageIndex = [SubjectsModel getLevel]-1;//Notice:page index 0 based.
         BookContentsVO *bookContents = [SubjectsModel getContents];
         NSLog(@"BookContentsVO => %@\n", bookContents);
         //
-        PageContentVO *pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
         if(pageIndex<1)
         {
+            //
+            pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
+            //
+            [self displayPageElements:pageIndex background:[pageContent background]];
             [self displayPageElements:pageIndex elements:[pageContent texts]];
             [self displayPageElements:pageIndex elements:[pageContent movieclips]];
+            //
+            [self preloadPageElements:pageIndex sound:[pageContent sound]];
         }
     }
-    //Preload staff
-    [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:@"njq_sound_01.mp3"];
     //
     return self;
 }
@@ -111,7 +101,7 @@ CGSize winSize;
 {
     if([[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying])
     {
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"njq_sound_01.mp3" loop:YES];
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:[pageContent sound] loop:YES];
     }else {
         [[SimpleAudioEngine sharedEngine] resumeBackgroundMusic];
     }
@@ -152,6 +142,25 @@ CGSize winSize;
     [[CCSpriteFrameCache sharedSpriteFrameCache] removeUnusedSpriteFrames];
     //
     [super dealloc];
+}
+
+-(void)displayPageElements:(int)pageIndex background:(NSString *)background
+{
+    //Update background sprite
+    //        CCTexture2D* tex = [[CCTextureCache sharedTextureCache] addImage:bgFileName];
+    //        [self.backgroundSprite setTexture: tex];
+    //        [self removeChild:backgroundSprite];
+    //Anew background to overlay
+    CCSprite *anewBG = [CCSprite spriteWithFile:background];
+    [self addChild:anewBG];
+    winSize = [[CCDirector sharedDirector] winSize];
+    anewBG.position = ccp(winSize.width/2,winSize.height/2);
+}
+
+-(void)preloadPageElements:(int)pageIndex sound:(NSString *)sound
+{
+    //Preload staff
+    [[SimpleAudioEngine sharedEngine] preloadBackgroundMusic:sound];
 }
 
 -(void)displayPageElements:(int)pageIndex elements:(NSArray *)elements
