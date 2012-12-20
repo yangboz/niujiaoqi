@@ -44,5 +44,37 @@
                             }
                             ]
              }
+             ,
+             {
+             "texts": [
+                       {
+                       "textureFileName": "njq_s2_mc_text",
+                       "textureFileExtension": ".png",
+                       "frames": 10,
+                       "x":500,
+                       "y":216
+                       }
+                       ],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s2_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s2_mc_grass",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":300,
+                            "y":422
+                            },
+                            {
+                            "textureFileName": "njq_s2_mc_wolf",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":770,
+                            "y":474
+                            }
+                            ]
+             }
              ]
 }

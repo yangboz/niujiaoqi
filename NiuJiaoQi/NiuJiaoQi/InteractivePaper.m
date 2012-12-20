@@ -17,10 +17,8 @@
 @synthesize layer_menuItems;
 
 //Constants
-#define COMIC_BOOK_STRIP_SUFFIX @" 副本.png"
 #define MAX_NUM_CBOOK_STRIPS 16
 #define CCBI_NAME @"InteractivePaper.ccbi"
-#define CCBI_SOUND_PREFIX @"njq_sound_"
 #define CCBI_SOUND_SUFFIX @".mp3"
 #define MC_SUFFIX_PLIST @".plist"
 #define MC_SUFFIX_PNG @".png"
@@ -38,7 +36,7 @@ PageContentVO *pageContent;
         BookContentsVO *bookContents = [SubjectsModel getContents];
         NSLog(@"BookContentsVO => %@\n", bookContents);
         //
-        if(pageIndex<1)
+        if(pageIndex<2)
         {
             //
             pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
@@ -84,10 +82,6 @@ PageContentVO *pageContent;
 		currentLevel--;//level stepper --
 		[SubjectsModel setLevel:currentLevel];
 		NSLog(@"level:%i",[SubjectsModel getLevel]);
-        //ccbi name split-joint
-        NSString *levelStr = [NSString stringWithFormat:@"%d", currentLevel];
-        NSMutableString *ccbiName = [NSMutableString stringWithString:levelStr];
-        [ccbiName appendString:COMIC_BOOK_STRIP_SUFFIX];
 		//
 		//    [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5f scene:[CCBReader sceneWithNodeGraphFromFile:@"Sleepless01.ccbi"] withColor:ccc3(0, 0, 0)]];
         [[CCDirector sharedDirector] replaceScene:[CCTransitionPageTurn transitionWithDuration:0.5f scene:[CCBReader sceneWithNodeGraphFromFile:CCBI_NAME] backwards:YES]];

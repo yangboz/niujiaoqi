@@ -10,8 +10,16 @@
                        "y":216
                        }
                        ],
-             "sprites": [],
+             "sprites": [{
+                            "textureFileName": "njq_s1_mc_bear",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":300,
+                            "y":422
+                            }],              
              "buttons": [],
+             "sound": "njq_s1_sound_00.mp3",
+             "background":"njq_s1_bg_00.png",
              "movieclips": [
                             {
                             "textureFileName": "njq_s1_mc_bear",
@@ -33,6 +41,38 @@
                             "frames": 10,
                             "x":80,
                             "y":545
+                            }
+                            ]
+             }
+             ,
+             {
+             "texts": [
+                       {
+                       "textureFileName": "njq_s2_mc_text",
+                       "textureFileExtension": ".png",
+                       "frames": 10,
+                       "x":500,
+                       "y":216
+                       }
+                       ],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s2_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s1_mc_plant",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":300,
+                            "y":422
+                            },
+                            {
+                            "textureFileName": "njq_s1_mc_wolf",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":770,
+                            "y":474
                             }
                             ]
              }
