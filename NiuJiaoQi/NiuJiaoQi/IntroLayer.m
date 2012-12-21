@@ -73,7 +73,7 @@
 {
 	[super onEnter];
     //Scene transition
-    CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"InteractivePaper.ccbi"];
+    CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"HomeLayer.ccbi"];
     
     //        layer.isTouchEnabled = YES;
     

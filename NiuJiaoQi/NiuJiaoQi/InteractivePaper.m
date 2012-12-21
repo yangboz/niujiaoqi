@@ -36,7 +36,7 @@ PageContentVO *pageContent;
         BookContentsVO *bookContents = [SubjectsModel getContents];
         NSLog(@"BookContentsVO => %@\n", bookContents);
         //Currently,assets prepared 3 pages.
-        if(pageIndex<5)
+        if(pageIndex<6)
         {
             //
             pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
@@ -128,7 +128,15 @@ PageContentVO *pageContent;
 //Return home menu
 - (void) onHome:(id)sender
 {
-    //TODO:
+    //Scene transition
+    CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"HomeLayer.ccbi"];
+    
+    //        layer.isTouchEnabled = YES;
+    
+    CCScene *scene = [CCScene node];
+    [scene addChild:layer];
+    //    [[CCDirector sharedDirector] runWithScene: scene];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:scene]];
 }
 
 //
@@ -169,6 +177,7 @@ PageContentVO *pageContent;
 
 -(void)displayPageElements:(int)pageIndex elements:(NSArray *)elements
 {
+    //@see:http://www.raywenderlich.com/1271/how-to-use-animations-and-sprite-sheets-in-cocos2d
     //
     int mcCount,i;
     //Movie clip counter
@@ -182,7 +191,7 @@ PageContentVO *pageContent;
         NSString *textureFileExtension = [(PageElementVO *)[elements objectAtIndex: i] textureFileExtension];
         NSNumber *frames = [(PageElementVO *)[elements objectAtIndex: i] frames];
         int mcX = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
-        int mcY = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
+        int mcY = 768 - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
         CCSprite *_bear;
@@ -216,8 +225,21 @@ PageContentVO *pageContent;
         _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
         [_bear runAction:_walkAction];
         [spriteSheet addChild:_bear];
-
-    }
         
+    }        
+}
+
+-(NSString *)getTextureFileNameInfix:(int)frameIndex
+{
+    NSString *infix = MC_INFIX_PLIST;
+    if(frameIndex>=10)
+    {
+        infix = @"00";
+    }
+    if(frameIndex>=100)
+    {
+        infix = @"0";
+    }
+    return [infix stringByAppendingFormat:@"%d",frameIndex];
 }
 @end

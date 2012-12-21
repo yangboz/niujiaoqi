@@ -29,7 +29,7 @@
 			<key>format</key>
 			<integer>3</integer>
 			<key>size</key>
-			<string>{512,512}</string>
+			<string>{2048,2048}</string>
 			<key>target</key>
 			<dict>
 				<key>name</key>

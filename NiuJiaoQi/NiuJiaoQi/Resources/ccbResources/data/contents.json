@@ -207,5 +207,78 @@
                             }
                             ]
              }
+             ,
+             {
+             "texts": [
+                       {
+                       "textureFileName": "njq_s6_mc_text",
+                       "textureFileExtension": ".png",
+                       "frames": 10,
+                       "x":500,
+                       "y":216
+                       }
+            ],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s6_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s6_mc_frog",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s6_mc_frog2",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s6_mc_wolf_body",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s6_mc_wolf_hand",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s6_mc_wolf_head1",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s6_mc_wolf_head2",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s5_mc_wolf_tail",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ]
+             }
              ]
 }
