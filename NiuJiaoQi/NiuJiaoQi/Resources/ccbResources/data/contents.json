@@ -64,13 +64,144 @@
                             "textureFileName": "njq_s2_mc_grass",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "x":300,
-                            "y":422
+                            "x":525,
+                            "y":578
                             },
                             {
                             "textureFileName": "njq_s2_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 10,
+                            "x":515,
+                            "y":495
+                            }
+                            ]
+             }
+             ,
+             {
+             "texts": [
+                       {
+                       "textureFileName": "njq_s3_mc_text",
+                       "textureFileExtension": ".png",
+                       "frames": 10,
+                       "x":500,
+                       "y":216
+                       }
+                       ],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s3_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s3_mc_wolf1",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s3_mc_wolf2",
+                            "textureFileExtension": ".png",
+                            "frames": 10,
+                            "x":770,
+                            "y":474
+                            }
+                            ]
+             }
+             ,
+             {
+             "texts": [],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s3_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s4_mc_sheep1",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s4_mc_sheep2",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s4_mc_wolf_head",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s4_mc_wolf_body",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s4_mc_wolf_tail",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ]
+             }
+             ,
+             {
+             "texts": [],
+             "sprites": [],              
+             "buttons": [],
+             "sound": "njq_s2_sound_00.mp3",
+             "background":"njq_s3_bg_00.png",
+             "movieclips": [
+                            {
+                            "textureFileName": "njq_s5_mc_sheep",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s5_mc_sheep1",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s5_mc_wolf_body",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s5_mc_wolf_body",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
+                            "x":770,
+                            "y":474
+                            }
+                            ,
+                            {
+                            "textureFileName": "njq_s5_mc_wolf_tail",
+                            "textureFileExtension": ".png",
+                            "frames": 1,
                             "x":770,
                             "y":474
                             }

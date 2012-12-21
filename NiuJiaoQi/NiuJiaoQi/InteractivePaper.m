@@ -35,17 +35,27 @@ PageContentVO *pageContent;
         int pageIndex = [SubjectsModel getLevel]-1;//Notice:page index 0 based.
         BookContentsVO *bookContents = [SubjectsModel getContents];
         NSLog(@"BookContentsVO => %@\n", bookContents);
-        //
-        if(pageIndex<2)
+        //Currently,assets prepared 3 pages.
+        if(pageIndex<5)
         {
             //
             pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
             //
-            [self displayPageElements:pageIndex background:[pageContent background]];
-            [self displayPageElements:pageIndex elements:[pageContent texts]];
-            [self displayPageElements:pageIndex elements:[pageContent movieclips]];
+            if([pageContent background]!=NULL)
+            {
+                [self displayPageElements:pageIndex background:[pageContent background]];
+            }
+            if ([[pageContent texts] count]) {
+                [self displayPageElements:pageIndex elements:[pageContent texts]];
+            }
+            if ([[pageContent movieclips] count]) {
+                [self displayPageElements:pageIndex elements:[pageContent movieclips]];
+            }
             //
-            [self preloadPageElements:pageIndex sound:[pageContent sound]];
+            if([pageContent sound]!=NULL)
+            {
+                [self preloadPageElements:pageIndex sound:[pageContent sound]];
+            }
         }
     }
     //

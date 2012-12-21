@@ -61,14 +61,14 @@
              "background":"njq_s2_bg_00.png",
              "movieclips": [
                             {
-                            "textureFileName": "njq_s1_mc_plant",
+                            "textureFileName": "njq_s2_mc_grass",
                             "textureFileExtension": ".png",
                             "frames": 10,
                             "x":300,
                             "y":422
                             },
                             {
-                            "textureFileName": "njq_s1_mc_wolf",
+                            "textureFileName": "njq_s2_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 10,
                             "x":770,
