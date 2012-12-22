@@ -117,7 +117,7 @@
              "sprites": [],              
              "buttons": [],
              "sound": "njq_s2_sound_00.mp3",
-             "background":"njq_s3_bg_00.png",
+             "background":"njq_s4_bg_00.png",
              "movieclips": [
                             {
                             "textureFileName": "njq_s4_mc_sheep1",
@@ -166,7 +166,7 @@
              "sprites": [],              
              "buttons": [],
              "sound": "njq_s2_sound_00.mp3",
-             "background":"njq_s3_bg_00.png",
+             "background":"njq_s5_bg_00.png",
              "movieclips": [
                             {
                             "textureFileName": "njq_s5_mc_sheep",
