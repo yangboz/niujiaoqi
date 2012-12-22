@@ -9,17 +9,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
+				<string>{{0,0},{1047,684}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{0,0},{1065,739}}</string>
+				<string>{{0,0},{1047,684}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -28,17 +28,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
+				<string>{{0,0},{1047,684}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{1065,0},{1065,739}}</string>
+				<string>{{0,684},{1047,684}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -47,150 +47,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
+				<string>{{0,0},{1047,684}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
+				<string>{1047,684}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{2130,0},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0003</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,739},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0004</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{1065,739},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0005</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{2130,739},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0006</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,1478},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0007</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{1065,1478},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0008</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{2130,1478},{1065,739}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s10_mc_pig0009</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1065,739}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1065,739}</string>
-				<key>spriteSourceSize</key>
-				<string>{1065,739}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,2217},{1065,739}}</string>
+				<string>{{0,1368},{1047,684}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -200,7 +67,7 @@
 			<key>format</key>
 			<integer>3</integer>
 			<key>size</key>
-			<string>{4096,4096}</string>
+			<string>{2048,2048}</string>
 			<key>target</key>
 			<dict>
 				<key>name</key>

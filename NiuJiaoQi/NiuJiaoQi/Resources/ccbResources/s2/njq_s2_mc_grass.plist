@@ -9,17 +9,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1113,467}}</string>
+				<string>{{0,0},{1113,466}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteSourceSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{0,0},{1113,467}}</string>
+				<string>{{0,0},{1113,466}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -28,17 +28,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1113,467}}</string>
+				<string>{{0,0},{1113,466}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteSourceSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{0,467},{1113,467}}</string>
+				<string>{{0,466},{1113,466}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -47,17 +47,17 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1113,467}}</string>
+				<string>{{0,0},{1113,466}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteSourceSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{0,934},{1113,467}}</string>
+				<string>{{0,932},{1113,466}}</string>
 				<key>textureRotated</key>
 				<false/>
 			</dict>
@@ -66,133 +66,19 @@
 				<key>aliases</key>
 				<array/>
 				<key>sourceColorRect</key>
-				<string>{{0,0},{1113,467}}</string>
+				<string>{{0,0},{1113,466}}</string>
 				<key>spriteOffset</key>
 				<string>{0,0}</string>
 				<key>spriteSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteSourceSize</key>
-				<string>{1113,467}</string>
+				<string>{1113,466}</string>
 				<key>spriteTrimmed</key>
 				<false/>
 				<key>textureRect</key>
-				<string>{{0,1401},{1113,467}}</string>
+				<string>{{0,1398},{1113,466}}</string>
 				<key>textureRotated</key>
 				<false/>
-			</dict>
-			<key>njq_s2_mc_grass0004</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{1113,467}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{1113,467}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,1868},{1113,467}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s2_mc_grass0005</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{278520824,194942049},{-278519711,-194941582}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{-278519711,-194941582}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{-193630092,-194943968},{-278519711,-194941582}}</string>
-				<key>textureRotated</key>
-				<true/>
-			</dict>
-			<key>njq_s2_mc_grass0006</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{512733468,143691617},{-512732355,-143691150}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{-512732355,-143691150}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{-512732369,-143691150},{-512732355,-143691150}}</string>
-				<key>textureRotated</key>
-				<true/>
-			</dict>
-			<key>njq_s2_mc_grass0007</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{512733468,143691617},{-512732355,-143691150}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{-512732355,-143691150}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{-512732369,-143691150},{-512732355,-143691150}}</string>
-				<key>textureRotated</key>
-				<true/>
-			</dict>
-			<key>njq_s2_mc_grass0008</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{-842079263,446366107},{842080376,-446365640}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{842080376,-446365640}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{1027093041,540553777},{842080376,-446365640}}</string>
-				<key>textureRotated</key>
-				<true/>
-			</dict>
-			<key>njq_s2_mc_grass0009</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{193643292,378331492},{-193642179,-378331025}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{1113,467}</string>
-				<key>spriteSourceSize</key>
-				<string>{-193642179,-378331025}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{-277580479,-444962477},{-193642179,-378331025}}</string>
-				<key>textureRotated</key>
-				<true/>
 			</dict>
 		</dict>
 		<key>metadata</key>

@@ -46,11 +46,11 @@ PageContentVO *pageContent;
             {
                 [self displayPageElements:pageIndex background:[pageContent background]];
             }
-            if ([[pageContent texts] count]) {
-                [self displayPageElements:pageIndex elements:[pageContent texts]];
-            }
             if ([[pageContent movieclips] count]) {
                 [self displayPageElements:pageIndex elements:[pageContent movieclips]];
+            }
+            if ([[pageContent texts] count]) {
+                [self displayPageElements:pageIndex elements:[pageContent texts]];
             }
             //
             if([pageContent sound]!=NULL)
@@ -215,14 +215,15 @@ PageContentVO *pageContent;
             //
             [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName]];
         }
-        CCAnimation *walkAnim = [CCAnimation animationWithFrames:walkAnimFrames delay:0.1f];
+        CCAnimation *walkAnim = [CCAnimation animationWithSpriteFrames:walkAnimFrames delay:0.1f];
         
         // Create a sprite for our MC,default index to 0
         NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
         _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
         _bear.position = ccp(mcX, mcY);
-        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
+//        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
+        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim]];
         [_bear runAction:_walkAction];
         [spriteSheet addChild:_bear];
         

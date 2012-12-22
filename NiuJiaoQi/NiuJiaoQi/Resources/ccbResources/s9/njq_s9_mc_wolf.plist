@@ -175,32 +175,13 @@
 				<key>textureRotated</key>
 				<false/>
 			</dict>
-			<key>njq_s9_mc_wolf0009</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{677,598}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{677,598}</string>
-				<key>spriteSourceSize</key>
-				<string>{677,598}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,1794},{677,598}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
 			<key>format</key>
 			<integer>3</integer>
 			<key>size</key>
-			<string>{2048,4096}</string>
+			<string>{2048,2048}</string>
 			<key>target</key>
 			<dict>
 				<key>name</key>

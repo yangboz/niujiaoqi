@@ -232,63 +232,6 @@
 				<key>textureRotated</key>
 				<false/>
 			</dict>
-			<key>njq_s3_mc_wolf10012</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{572,423}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{572,423}</string>
-				<key>spriteSourceSize</key>
-				<string>{572,423}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,1692},{572,423}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s3_mc_wolf10013</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{572,423}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{572,423}</string>
-				<key>spriteSourceSize</key>
-				<string>{572,423}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{572,1692},{572,423}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s3_mc_wolf10014</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{572,423}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{572,423}</string>
-				<key>spriteSourceSize</key>
-				<string>{572,423}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{1144,1692},{572,423}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>

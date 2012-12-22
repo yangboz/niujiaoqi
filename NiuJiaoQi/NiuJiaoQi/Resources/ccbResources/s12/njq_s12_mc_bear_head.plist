@@ -118,89 +118,13 @@
 				<key>textureRotated</key>
 				<false/>
 			</dict>
-			<key>njq_s12_mc_bear_head0006</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{705,691}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{705,691}</string>
-				<key>spriteSourceSize</key>
-				<string>{705,691}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,2073},{705,691}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s12_mc_bear_head0007</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{705,691}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{705,691}</string>
-				<key>spriteSourceSize</key>
-				<string>{705,691}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{705,2073},{705,691}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s12_mc_bear_head0008</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{705,691}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{705,691}</string>
-				<key>spriteSourceSize</key>
-				<string>{705,691}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{0,2764},{705,691}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
-			<key>njq_s12_mc_bear_head0009</key>
-			<dict>
-				<key>aliases</key>
-				<array/>
-				<key>sourceColorRect</key>
-				<string>{{0,0},{705,691}}</string>
-				<key>spriteOffset</key>
-				<string>{0,0}</string>
-				<key>spriteSize</key>
-				<string>{705,691}</string>
-				<key>spriteSourceSize</key>
-				<string>{705,691}</string>
-				<key>spriteTrimmed</key>
-				<false/>
-				<key>textureRect</key>
-				<string>{{705,2764},{705,691}}</string>
-				<key>textureRotated</key>
-				<false/>
-			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>
 			<key>format</key>
 			<integer>3</integer>
 			<key>size</key>
-			<string>{2048,4096}</string>
+			<string>{2048,2048}</string>
 			<key>target</key>
 			<dict>
 				<key>name</key>
