@@ -226,6 +226,10 @@ PageContentVO *pageContent;
         _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim]];
         [_bear runAction:_walkAction];
         [spriteSheet addChild:_bear];
+        //
+        _bear = nil;
+        _walkAction = nil;
+        spriteSheet = nil;
         
     }        
 }
