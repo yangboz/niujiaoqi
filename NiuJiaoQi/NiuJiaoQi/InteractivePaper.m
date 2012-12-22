@@ -22,7 +22,7 @@
 #define CCBI_SOUND_SUFFIX @".mp3"
 #define MC_SUFFIX_PLIST @".plist"
 #define MC_SUFFIX_PNG @".png"
-#define MC_INFIX_PLIST @"000"
+#define MC_INFIX @"000"
 
 //Variables
 CGSize winSize;
@@ -34,9 +34,10 @@ PageContentVO *pageContent;
         //Page elements(text,button,sprite,movieclip...) display
         int pageIndex = [SubjectsModel getLevel]-1;//Notice:page index 0 based.
         BookContentsVO *bookContents = [SubjectsModel getContents];
+        BookMetadataVO *bookMetadata = [SubjectsModel getMetadata];
         NSLog(@"BookContentsVO => %@\n", bookContents);
         //Currently,assets prepared 3 pages.
-        if(pageIndex<6)
+        if(pageIndex<[[bookMetadata strips] intValue])
         {
             //
             pageContent = (PageContentVO *)[[bookContents contents] objectAtIndex:pageIndex];
@@ -210,15 +211,14 @@ PageContentVO *pageContent;
         NSMutableArray *walkAnimFrames = [NSMutableArray array];
         for(int j = 0; j < [frames intValue]; ++j) {
             //
-            NSString *frameName = [textureFileName stringByAppendingString:MC_INFIX_PLIST];
+            NSString *frameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:j]];
             //
-            [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:[NSString stringWithFormat:@"%@%d", frameName,j]]];
+            [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName]];
         }
         CCAnimation *walkAnim = [CCAnimation animationWithFrames:walkAnimFrames delay:0.1f];
         
         // Create a sprite for our MC,default index to 0
-        NSString *defaultFrameName = [textureFileName stringByAppendingString:MC_INFIX_PLIST];
-        defaultFrameName = [defaultFrameName stringByAppendingString:@"0"];
+        NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
         _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
         _bear.position = ccp(mcX, mcY);
@@ -231,7 +231,7 @@ PageContentVO *pageContent;
 
 -(NSString *)getTextureFileNameInfix:(int)frameIndex
 {
-    NSString *infix = MC_INFIX_PLIST;
+    NSString *infix = MC_INFIX;
     if(frameIndex>=10)
     {
         infix = @"00";
