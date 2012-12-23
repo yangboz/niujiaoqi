@@ -143,7 +143,7 @@ PageContentVO *pageContent;
 //
 -(void)dealloc
 {
-    [backgroundSprite release];
+//    [backgroundSprite release];
     [animationManager release];
     [btn_sound_play release];
     [btn_sound_stop release];
@@ -153,8 +153,17 @@ PageContentVO *pageContent;
     btn_sound_stop = nil;
     //
     [[CCSpriteFrameCache sharedSpriteFrameCache] removeUnusedSpriteFrames];
+    [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFrames];
+    [[CCTextureCache sharedTextureCache] removeUnusedTextures];
     //
     [super dealloc];
+}
+//
+-(void)onExit
+{
+    //@see:http://www.cocos2d-iphone.org/forum/topic/5354
+    [super onExit];
+    [self removeAllChildrenWithCleanup:YES];
 }
 
 -(void)displayPageElements:(int)pageIndex background:(NSString *)background
@@ -164,10 +173,10 @@ PageContentVO *pageContent;
     //        [self.backgroundSprite setTexture: tex];
     //        [self removeChild:backgroundSprite];
     //Anew background to overlay
-    CCSprite *anewBG = [CCSprite spriteWithFile:background];
-    [self addChild:anewBG];
+    backgroundSprite = [CCSprite spriteWithFile:background];
+    [self addChild:backgroundSprite];
     winSize = [[CCDirector sharedDirector] winSize];
-    anewBG.position = ccp(winSize.width/2,winSize.height/2);
+    backgroundSprite.position = ccp(winSize.width/2,winSize.height/2);
 }
 
 -(void)preloadPageElements:(int)pageIndex sound:(NSString *)sound
@@ -227,10 +236,8 @@ PageContentVO *pageContent;
         [_bear runAction:_walkAction];
         [spriteSheet addChild:_bear];
         //
-        _bear = nil;
-        _walkAction = nil;
-        spriteSheet = nil;
-        
+        [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFramesFromFile: fileNamePlist];
+//        [[CCTextureCache sharedTextureCache] removeTextureForKey: fileNamePNG];
     }        
 }
 
