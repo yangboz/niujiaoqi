@@ -22,6 +22,9 @@
     CCMenuItem *btn_sound_stop;
     //MenuItems layer
     CCLayer *layer_menuItems;
+    //Curl buttons
+    CCMenuItem *btn_curl_next;
+    CCMenuItem *btn_curl_prev;
 }
 //Background Sprite
 @property(nonatomic,retain) CCSprite* backgroundSprite;
@@ -32,6 +35,9 @@
 @property(nonatomic,retain) CCMenuItem *btn_sound_stop;
 //Layers
 @property(nonatomic,retain) CCLayer *layer_menuItems;
+//Curl buttons
+@property(nonatomic,retain) CCMenuItem *btn_curl_next;
+@property(nonatomic,retain) CCMenuItem *btn_curl_prev;
 //Animation handler
 - (void) onAnimation:(id)sender;
 // When pressing the back button, the currently running scene

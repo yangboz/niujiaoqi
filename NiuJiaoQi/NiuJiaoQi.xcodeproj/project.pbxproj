@@ -11,7 +11,11 @@
 		A403E98B166BA7C3004791A9 /* Sleepless01.m in Sources */ = {isa = PBXBuildFile; fileRef = A403E98A166BA7C2004791A9 /* Sleepless01.m */; };
 		A403F0E3167B4717006CE113 /* SubjectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A403F0E2167B4717006CE113 /* SubjectsModel.m */; };
 		A403F0F0167B50E8006CE113 /* InteractivePaper.m in Sources */ = {isa = PBXBuildFile; fileRef = A403F0EF167B50E8006CE113 /* InteractivePaper.m */; };
-		A4045FB2168743200016DB3D /* InteractivePaper.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A4045FB1168743200016DB3D /* InteractivePaper.ccbi */; };
+		A408484F1688A301006B444E /* CCTouchableSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A408484E1688A301006B444E /* CCTouchableSprite.m */; };
+		A40848541688AAF2006B444E /* njq_sound_button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A40848521688AAF2006B444E /* njq_sound_button.mp3 */; };
+		A40848551688AAF2006B444E /* njq_sound_curl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A40848531688AAF2006B444E /* njq_sound_curl.mp3 */; };
+		A40848591688ADC7006B444E /* HomeLayer.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A40848581688ADC7006B444E /* HomeLayer.ccbi */; };
+		A408485B1688ADCE006B444E /* InteractivePaper.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A408485A1688ADCE006B444E /* InteractivePaper.ccbi */; };
 		A4405D9F166A48CB00BB22C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405D9E166A48CB00BB22C4 /* QuartzCore.framework */; };
 		A4405DA1166A48CB00BB22C4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405DA0166A48CB00BB22C4 /* OpenGLES.framework */; };
 		A4405DA3166A48CB00BB22C4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4405DA2166A48CB00BB22C4 /* OpenAL.framework */; };
@@ -168,7 +172,6 @@
 		A4971039168621F20038DBCD /* metadata.json in Resources */ = {isa = PBXBuildFile; fileRef = A4970F6A168621F20038DBCD /* metadata.json */; };
 		A497103A168621F20038DBCD /* njq_home_bg_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A4970F6C168621F20038DBCD /* njq_home_bg_00.png */; };
 		A497103B168621F20038DBCD /* njq_home_sprite_notsleep.png in Resources */ = {isa = PBXBuildFile; fileRef = A4970F6D168621F20038DBCD /* njq_home_sprite_notsleep.png */; };
-		A497103C168621F20038DBCD /* HomeLayer.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = A4970F6E168621F20038DBCD /* HomeLayer.ccbi */; };
 		A497104E168621F20038DBCD /* njq_s1_bg_00.png in Resources */ = {isa = PBXBuildFile; fileRef = A4970F82168621F20038DBCD /* njq_s1_bg_00.png */; };
 		A497104F168621F20038DBCD /* njq_s1_mc_bear.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4970F83168621F20038DBCD /* njq_s1_mc_bear.plist */; };
 		A4971050168621F20038DBCD /* njq_s1_mc_bear.png in Resources */ = {isa = PBXBuildFile; fileRef = A4970F84168621F20038DBCD /* njq_s1_mc_bear.png */; };
@@ -347,7 +350,13 @@
 		A403F0E2167B4717006CE113 /* SubjectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectsModel.m; sourceTree = "<group>"; };
 		A403F0EE167B50E8006CE113 /* InteractivePaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractivePaper.h; sourceTree = "<group>"; };
 		A403F0EF167B50E8006CE113 /* InteractivePaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractivePaper.m; sourceTree = "<group>"; };
-		A4045FB1168743200016DB3D /* InteractivePaper.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = InteractivePaper.ccbi; sourceTree = "<group>"; };
+		A408484D1688A301006B444E /* CCTouchableSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTouchableSprite.h; sourceTree = "<group>"; };
+		A408484E1688A301006B444E /* CCTouchableSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTouchableSprite.m; sourceTree = "<group>"; };
+		A40848501688A6D7006B444E /* CCTargetedTouchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTargetedTouchDelegate.h; sourceTree = "<group>"; };
+		A40848521688AAF2006B444E /* njq_sound_button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = njq_sound_button.mp3; sourceTree = "<group>"; };
+		A40848531688AAF2006B444E /* njq_sound_curl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = njq_sound_curl.mp3; sourceTree = "<group>"; };
+		A40848581688ADC7006B444E /* HomeLayer.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = HomeLayer.ccbi; path = Resources/HomeLayer.ccbi; sourceTree = "<group>"; };
+		A408485A1688ADCE006B444E /* InteractivePaper.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = InteractivePaper.ccbi; path = Resources/InteractivePaper.ccbi; sourceTree = "<group>"; };
 		A4405D9A166A48CB00BB22C4 /* NiuJiaoQi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiuJiaoQi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4405D9E166A48CB00BB22C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A4405DA0166A48CB00BB22C4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -652,7 +661,6 @@
 		A4970F6A168621F20038DBCD /* metadata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = metadata.json; sourceTree = "<group>"; };
 		A4970F6C168621F20038DBCD /* njq_home_bg_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = njq_home_bg_00.png; sourceTree = "<group>"; };
 		A4970F6D168621F20038DBCD /* njq_home_sprite_notsleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = njq_home_sprite_notsleep.png; sourceTree = "<group>"; };
-		A4970F6E168621F20038DBCD /* HomeLayer.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeLayer.ccbi; sourceTree = "<group>"; };
 		A4970F82168621F20038DBCD /* njq_s1_bg_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = njq_s1_bg_00.png; sourceTree = "<group>"; };
 		A4970F83168621F20038DBCD /* njq_s1_mc_bear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = njq_s1_mc_bear.plist; sourceTree = "<group>"; };
 		A4970F84168621F20038DBCD /* njq_s1_mc_bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = njq_s1_mc_bear.png; sourceTree = "<group>"; };
@@ -864,6 +872,7 @@
 		A403F0DF167B469C006CE113 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				A408484B1688A2F3006B444E /* components */,
 				A403E989166BA7C2004791A9 /* Sleepless01.h */,
 				A403E98A166BA7C2004791A9 /* Sleepless01.m */,
 				A4021CB9166CCA3D0087A202 /* Sleepless02.h */,
@@ -885,6 +894,24 @@
 			children = (
 			);
 			name = controller;
+			sourceTree = "<group>";
+		};
+		A408484B1688A2F3006B444E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				A408484D1688A301006B444E /* CCTouchableSprite.h */,
+				A408484E1688A301006B444E /* CCTouchableSprite.m */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		A40848511688AAF2006B444E /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				A40848521688AAF2006B444E /* njq_sound_button.mp3 */,
+				A40848531688AAF2006B444E /* njq_sound_curl.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 		A4405D8F166A48CA00BB22C4 = {
@@ -940,6 +967,8 @@
 		A4405DB1166A48CB00BB22C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A408485A1688ADCE006B444E /* InteractivePaper.ccbi */,
+				A40848581688ADC7006B444E /* HomeLayer.ccbi */,
 				A4970F51168621F20038DBCD /* ccbResources */,
 				A4405DB2166A48CB00BB22C4 /* Default.png */,
 				A4405DB4166A48CB00BB22C4 /* Default@2x.png */,
@@ -1320,6 +1349,7 @@
 			isa = PBXGroup;
 			children = (
 				A4405FC0166A5CEA00BB22C4 /* CCBReader */,
+				A40848501688A6D7006B444E /* CCTargetedTouchDelegate.h */,
 			);
 			name = "cocos2d-iphone";
 			sourceTree = "<group>";
@@ -1346,11 +1376,10 @@
 		A4970F51168621F20038DBCD /* ccbResources */ = {
 			isa = PBXGroup;
 			children = (
-				A4045FB1168743200016DB3D /* InteractivePaper.ccbi */,
+				A40848511688AAF2006B444E /* sound */,
 				A4970F52168621F20038DBCD /* buttons */,
 				A4970F67168621F20038DBCD /* data */,
 				A4970F6B168621F20038DBCD /* home */,
-				A4970F6E168621F20038DBCD /* HomeLayer.ccbi */,
 				A4970F81168621F20038DBCD /* s1 */,
 				A4970F8C168621F20038DBCD /* s10 */,
 				A4970F96168621F20038DBCD /* s11 */,
@@ -1834,7 +1863,6 @@
 				A4971039168621F20038DBCD /* metadata.json in Resources */,
 				A497103A168621F20038DBCD /* njq_home_bg_00.png in Resources */,
 				A497103B168621F20038DBCD /* njq_home_sprite_notsleep.png in Resources */,
-				A497103C168621F20038DBCD /* HomeLayer.ccbi in Resources */,
 				A497104E168621F20038DBCD /* njq_s1_bg_00.png in Resources */,
 				A497104F168621F20038DBCD /* njq_s1_mc_bear.plist in Resources */,
 				A4971050168621F20038DBCD /* njq_s1_mc_bear.png in Resources */,
@@ -1983,7 +2011,10 @@
 				A49710DF168621F20038DBCD /* njq_s9_mc_wolf.png in Resources */,
 				A49710E2168625180038DBCD /* njq_s14_mc_text.plist in Resources */,
 				A49710E3168625180038DBCD /* njq_s14_mc_text.png in Resources */,
-				A4045FB2168743200016DB3D /* InteractivePaper.ccbi in Resources */,
+				A40848541688AAF2006B444E /* njq_sound_button.mp3 in Resources */,
+				A40848551688AAF2006B444E /* njq_sound_curl.mp3 in Resources */,
+				A40848591688ADC7006B444E /* HomeLayer.ccbi in Resources */,
+				A408485B1688ADCE006B444E /* InteractivePaper.ccbi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2121,6 +2152,7 @@
 				A4D232781680BE740029D85B /* PageContentVO.m in Sources */,
 				A4D2327B1680BE890029D85B /* PageElementVO.m in Sources */,
 				A4FC4F971684ADC6003F9AF5 /* HomeLayer.m in Sources */,
+				A408484F1688A301006B444E /* CCTouchableSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

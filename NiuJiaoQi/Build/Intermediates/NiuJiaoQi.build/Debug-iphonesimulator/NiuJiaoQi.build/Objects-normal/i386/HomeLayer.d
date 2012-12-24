@@ -101,4 +101,9 @@ dependencies: \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/NSThread+performBlock.h \
   /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/utlist.h \
   NiuJiaoQi/libs/kazmath/include/kazmath/GL/matrix.h \
-  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.h
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/SimpleAudioEngine.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/CDAudioManager.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/CocosDenshion.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/CDConfig.h \
+  /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/CDOpenALSupport.h
