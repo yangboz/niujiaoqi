@@ -9,6 +9,11 @@
 #import "HomeLayer.h"
 #import "CCBReader.h"
 #define BUTTON_SOUND_DEFAULT @"njq_sound_button.mp3"
+#define BUTTON_SOUND_START @"njq_sound_start.mp3"
+#define BUTTON_SOUND_SLEEP_MODE @"njq_sound_sleep_mode.mp3"
+#define BUTTON_SOUND_PLAY_PAUSE @"njq_sound_play_pause.mp3"
+#define BUTTON_SOUND_LANGUAGE @"njq_sound_language_choice.mp3"
+
 #import "SimpleAudioEngine.h"
 
 @implementation HomeLayer
@@ -19,6 +24,10 @@
         //Custom staff here.
         //Preload sound effect
         [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_DEFAULT];
+        [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_LANGUAGE];
+        [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_START];
+        [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_SLEEP_MODE];
+        [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_PLAY_PAUSE];
         //
 
     }
@@ -27,15 +36,15 @@
 
 - (void) onChinese:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_DEFAULT];//Play sound effect
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_LANGUAGE];//Play sound effect
 }
 - (void) onEnglish:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_DEFAULT];//Play sound effect
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_LANGUAGE];//Play sound effect
 }
 - (void) onStart:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_DEFAULT];//Play sound effect
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_START];//Play sound effect
     //Scene transition
     CCLayer *layer = (CCLayer *) [CCBReader nodeGraphFromFile:@"InteractivePaper.ccbi"];
     
@@ -48,6 +57,16 @@
 }
 - (void) onSleeping:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_DEFAULT];
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_SLEEP_MODE];
 }
+
+-(void) dealloc
+{
+    [super dealloc];
+    //
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_DEFAULT];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_LANGUAGE];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_START];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_SLEEP_MODE];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_PLAY_PAUSE];}
 @end

@@ -9,7 +9,11 @@
 #import "InteractivePaper.h"
 #import "SubjectsModel.h"
 #import "CCTouchableSprite.h"
-#define BUTTON_SOUND_CURL @"njq_sound_curl.mp3"
+
+//#define BUTTON_SOUND_CURL @"njq_sound_curl.mp3"
+#define BUTTON_SOUND_CURL_NEXT @"njq_sound_curl_next.mp3"
+#define BUTTON_SOUND_CURL_PREV @"njq_sound_curl_prev.mp3"
+#define BUTTON_SOUND_TOUCH_DEFAULT @"njq_sound_touch_default.mp3"
 
 @implementation InteractivePaper
 
@@ -38,7 +42,7 @@ PageContentVO *pageContent;
         int pageIndex = [SubjectsModel getLevel]-1;//Notice:page index 0 based.
         BookContentsVO *bookContents = [SubjectsModel getContents];
         BookMetadataVO *bookMetadata = [SubjectsModel getMetadata];
-        NSLog(@"BookContentsVO => %@\n", bookContents);
+//        NSLog(@"BookContentsVO => %@\n", bookContents);
         //Currently,assets prepared 3 pages.
         if(pageIndex<[[bookMetadata strips] intValue])
         {
@@ -61,7 +65,9 @@ PageContentVO *pageContent;
                 [self preloadPageElements:pageIndex sound:[pageContent sound]];
             }
             //Preload sound effect
-            [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_CURL];
+            [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_CURL_NEXT];
+            [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_CURL_PREV];
+            [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_TOUCH_DEFAULT];
             //Disable curl buttons
             // -10 means that the update method of this node will be called before other update methods which priority number is higher
             [self scheduleUpdateWithPriority:-10];
@@ -100,7 +106,7 @@ PageContentVO *pageContent;
 // is replaced by the start scene, created by CocosBuilder.
 - (void) onNext:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_CURL];//Play sound effect.
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_CURL_NEXT];//Play sound effect.
     //NSLog(@"level:%i",[SubjectsModel getLevel]);
 	int currentLevel = [SubjectsModel getLevel];
 	if (currentLevel<MAX_NUM_CBOOK_STRIPS) {
@@ -113,7 +119,7 @@ PageContentVO *pageContent;
 }
 - (void) onPrevious:(id)sender
 {
-    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_CURL];//Play sound effect.
+    [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_CURL_PREV];//Play sound effect.
     //NSLog(@"level:%i",[SubjectsModel getLevel]);
 	int currentLevel = [SubjectsModel getLevel];
 	if (currentLevel>1) {
@@ -176,6 +182,7 @@ PageContentVO *pageContent;
     [btn_sound_stop release];
 //    [btn_curl_next release];
 //    [btn_curl_prev release];
+    //
     backgroundSprite = nil;
     animationManager = nil;
     btn_sound_play = nil;
@@ -189,6 +196,12 @@ PageContentVO *pageContent;
     //unschedule
     [self unscheduleUpdate];
     //
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_CURL_NEXT];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_CURL_PREV];
+    [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_TOUCH_DEFAULT];
+    //unregisterWithTouchDispatcher
+    [[[CCDirector sharedDirector] touchDispatcher] removeDelegate:self];
+    //
     [super dealloc];
 }
 //
@@ -197,6 +210,7 @@ PageContentVO *pageContent;
     //@see:http://www.cocos2d-iphone.org/forum/topic/5354
     [super onExit];
     [self removeAllChildrenWithCleanup:YES];
+    [self removeFromParentAndCleanup:YES];
 }
 
 -(void)displayPageSprite:(int)pageIndex element:(NSString *)background
@@ -237,7 +251,8 @@ PageContentVO *pageContent;
         int mcY = 768 - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
-        CCSprite *_bear;
+//        CCSprite *_bear;
+        CCTouchableSprite *_bear;
         CCAction *_walkAction;
         // This loads an image of the same name (but ending in png), and goes through the
         // plist to add definitions of each frame to the cache.
@@ -262,7 +277,7 @@ PageContentVO *pageContent;
         // Create a sprite for our MC,default index to 0
         NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
-        _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
+        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName];        
         _bear.position = ccp(mcX, mcY);
 //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
 //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim]];
@@ -295,6 +310,7 @@ PageContentVO *pageContent;
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
         CCTouchableSprite *_bear;
+//        CCSpriteWithAction *_bear;
         CCAction *_walkAction;
         // This loads an image of the same name (but ending in png), and goes through the
         // plist to add definitions of each frame to the cache.
@@ -315,21 +331,27 @@ PageContentVO *pageContent;
             [walkAnimFrames addObject:[[CCSpriteFrameCache sharedSpriteFrameCache] spriteFrameByName:frameName]];
         }
         CCAnimation *walkAnim = [CCAnimation animationWithSpriteFrames:walkAnimFrames delay:0.1f];
+//        walkAnim.restoreOriginalFrame = YES;
         
         // Create a sprite for our MC,default index to 0
         NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
-        _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];        
+        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName];        
         _bear.position = ccp(mcX, mcY);
         //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
-        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim]];
+//        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim] ];
+         _walkAction = [CCRepeat actionWithAction:[CCAnimate actionWithAnimation:walkAnim] times:1];
         //        [_bear runAction:_walkAction];
         //Movieclip run ation with touch trigger.
 //        _bear.isTouchEnabled = YES;
-//        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
-//            [_bear runAction:_walkAction];
-//        }];
-        
+        //@see: http://stackoverflow.com/questions/7198695/runaction-animation-crash-problem-whats-missing
+        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
+            [_bear stopAction:_walkAction];
+            [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_TOUCH_DEFAULT];//Play sound effect.
+            [_bear runAction:_walkAction];
+        }];
+//        [_bear setTouchTarget:self action:@selector(onAnimation:)];
+        //
         [spriteSheet addChild:_bear];
         //
         [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFramesFromFile: fileNamePlist];
@@ -357,10 +379,11 @@ PageContentVO *pageContent;
 {
 //    [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 
 //                                              swallowsTouches:YES];
-    [[[CCDirector sharedDirector] touchDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
+    //@see: http://www.iphonewarroom.com/2011/03/cocos2d-how-to-pass-touch-event-to.html
+    [[[CCDirector sharedDirector] touchDispatcher] addTargetedDelegate:self priority:1 swallowsTouches:NO];
 }
 
--(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+-(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event {   
 	return YES;
 }
 
@@ -369,5 +392,6 @@ PageContentVO *pageContent;
 //    NSLog(@"Touch target:%@",(CCSprite *)[touch.view]);
     
 }
+
 
 @end

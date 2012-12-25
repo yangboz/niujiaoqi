@@ -3,12 +3,7 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[IntroLayer parseBookStripsData]:IntroLayer.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[dict objectForKey:@&quot;metadata&quot;]">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "-[BookStripsVO setMetadata:]:BookStripsVO.m">
       </ContextState>
       <ContextState
          contextName = "-[InteractivePaper displayPageElements]:InteractivePaper.m">
@@ -19,7 +14,20 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[BookStripsVO setMetadata:]:BookStripsVO.m">
+         contextName = "-[InteractivePaper selectSpriteForTouch:]:InteractivePaper.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[touchableSprites getObjectAt:0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[IntroLayer parseBookStripsData]:IntroLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[dict objectForKey:@&quot;metadata&quot;]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>
