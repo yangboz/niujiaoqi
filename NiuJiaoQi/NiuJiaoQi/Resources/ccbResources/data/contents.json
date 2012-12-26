@@ -20,7 +20,7 @@
                             "textureFileName": "njq_s1_mc_bear",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_s7_sound_wolf_startle.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":300,
                             "y":422
                             },
@@ -28,7 +28,7 @@
                             "textureFileName": "njq_s1_mc_fox",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":770,
                             "y":474
                             },
@@ -36,7 +36,7 @@
                             "textureFileName": "njq_s1_mc_pig",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":80,
                             "y":545
                             }
@@ -63,7 +63,7 @@
                            "textureFileName": "njq_s2_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 3,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":515,
                             "y":495
                             },
@@ -71,7 +71,7 @@
                             "textureFileName": "njq_s2_mc_grass",
                             "textureFileExtension": ".png",
                             "frames": 4,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_grass_default.mp3",
                             "x":525,
                             "y":578
                             }
@@ -98,7 +98,7 @@
                             "textureFileName": "njq_s3_mc_wolf1",
                             "textureFileExtension": ".png",
                             "frames": 12,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":337,
                             "y":262
                             }
@@ -107,7 +107,7 @@
                             "textureFileName": "njq_s3_mc_wolf2",
                             "textureFileExtension": ".png",
                             "frames": 12,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":662,
                             "y":490
                             }
@@ -134,7 +134,7 @@
                             "textureFileName": "njq_s4_mc_sheep1",
                             "textureFileExtension": ".png",
                             "frames": 15,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s4_sound_sheep.mp3",
                             "x":215,
                             "y":185
                             }
@@ -143,7 +143,7 @@
                             "textureFileName": "njq_s4_mc_sheep2",
                             "textureFileExtension": ".png",
                             "frames": 15,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s4_sound_sheep.mp3",
                             "x":432,
                             "y":227
                             }
@@ -152,7 +152,7 @@
                             "textureFileName": "njq_s4_mc_wolf_body",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":655,
                             "y":554
                             }
@@ -161,7 +161,7 @@
                             "textureFileName": "njq_s4_mc_wolf_head",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":747,
                             "y":436
                             }
@@ -170,7 +170,7 @@
                             "textureFileName": "njq_s4_mc_wolf_tail",
                             "textureFileExtension": ".png",
                             "frames": 12,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":274,
                             "y":530
                             }
@@ -198,7 +198,7 @@
                             "textureFileName": "njq_s5_mc_wolf_body",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":653,
                             "y":606
                             }
@@ -207,7 +207,7 @@
                             "textureFileName": "njq_s5_mc_wolf_tail",
                             "textureFileExtension": ".png",
                             "frames": 12,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2",
                             "x":243,
                             "y":539
                             }
@@ -216,7 +216,7 @@
                             "textureFileName": "njq_s5_mc_sheep",
                             "textureFileExtension": ".png",
                             "frames": 15,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s4_sound_sheep.mp3",
                             "x":241,
                             "y":264
                             }
@@ -225,7 +225,7 @@
                             "textureFileName": "njq_s5_mc_wolf_head",
                             "textureFileExtension": ".png",
                             "frames": 6,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":701,
                             "y":427
                             }
@@ -252,7 +252,7 @@
                             "textureFileName": "njq_s6_mc_frog",
                             "textureFileExtension": ".png",
                             "frames": 6,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s6_sound_frog.mp3",
                             "x":668,
                             "y":235
                             }
@@ -261,7 +261,7 @@
                             "textureFileName": "njq_s6_mc_wolf_head2",
                             "textureFileExtension": ".png",
                             "frames": 6,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":912,
                             "y":110
                             }
@@ -270,7 +270,7 @@
                             "textureFileName": "njq_s6_mc_frog2",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                           
                             "x":307,
                             "y":598
                             }
@@ -279,7 +279,7 @@
                             "textureFileName": "njq_s6_mc_wolf_tail",
                             "textureFileExtension": ".png",
                             "frames": 19,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":679,
                             "y":506
                             }
@@ -288,7 +288,7 @@
                             "textureFileName": "njq_s6_mc_wolf_body",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":429,
                             "y":546
                             }
@@ -297,7 +297,7 @@
                             "textureFileName": "njq_s6_mc_wolf_hand",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":161,
                             "y":615
                             }
@@ -306,7 +306,7 @@
                             "textureFileName": "njq_s6_mc_wolf_head1",
                             "textureFileExtension": ".png",
                             "frames": 14,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":241,
                             "y":521
                             }
@@ -333,7 +333,7 @@
                             "textureFileName": "njq_s7_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 7,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s7_sound_wolf_startle.mp3",
                             "x":352,
                             "y":450
                             }
@@ -342,7 +342,7 @@
                             "textureFileName": "njq_s7_mc_frog",
                             "textureFileExtension": ".png",
                             "frames": 6,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s6_sound_frog.mp3",
                             "x":658,
                             "y":586
                             }
@@ -369,7 +369,7 @@
                             "textureFileName": "njq_s8_mc_tail",
                             "textureFileExtension": ".png",
                             "frames": 8,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":683,
                             "y":383
                             }
@@ -378,7 +378,7 @@
                             "textureFileName": "njq_s8_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":326,
                             "y":420
                             }
@@ -405,7 +405,7 @@
                             "textureFileName": "njq_s9_mc_pig",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":404,
                             "y":439
                             }
@@ -414,7 +414,7 @@
                             "textureFileName": "njq_s9_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 9,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":747,
                             "y":521
                             }
@@ -441,7 +441,7 @@
                             "textureFileName": "njq_s10_mc_pig",
                             "textureFileExtension": ".png",
                             "frames": 3,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s10_sound_pig_snoring.mp3",
                             "x":563,
                             "y":324
                             }
@@ -456,10 +456,10 @@
                             }
                             ,
                             {
-                            "textureFileName": "njq_s10_mc_grass1",
+                            "textureFileName": "njq_s10_mc_grass2",
                             "textureFileExtension": ".png",
                             "frames": 3,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_grass_default.mp3",
                             "x":508,
                             "y":675
                             }
@@ -486,7 +486,7 @@
                             "textureFileName": "njq_s11_mc_bear",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s11_sound_bear_snoring.mp3",
                             "x":374,
                             "y":609
                             }
@@ -495,7 +495,7 @@
                             "textureFileName": "njq_s11_mc_wolf",
                             "textureFileExtension": ".png",
                             "frames": 5,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":666,
                             "y":234
                             }
@@ -522,7 +522,7 @@
                             "textureFileName": "njq_s12_mc_bear",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":565,
                             "y":347
                             }
@@ -531,7 +531,7 @@
                             "textureFileName": "njq_s12_mc_bear_head",
                             "textureFileExtension": ".png",
                             "frames": 6,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s11_sound_bear_snoring.mp3",
                             "x":376,
                             "y":491
                             }
@@ -558,7 +558,7 @@
                             "textureFileName": "njq_s13_mc_moon",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s13_sound_Moon_snoring.mp3",
                             "x":720,
                             "y":230
                             }
@@ -567,7 +567,7 @@
                             "textureFileName": "njq_s13_mc_body",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":445,
                             "y":601
                             }
@@ -576,7 +576,7 @@
                             "textureFileName": "njq_s13_mc_head",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq__s13_sound_wolf.mp3",
                             "x":462,
                             "y":497
                             }
@@ -585,7 +585,7 @@
                             "textureFileName": "njq_s13_mc_tail",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":295,
                             "y":520
                             }
@@ -612,7 +612,7 @@
                             "textureFileName": "njq_s14_wolf",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":510,
                             "y":592
                             }
@@ -621,7 +621,7 @@
                             "textureFileName": "njq_s14_mc_tail",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":387,
                             "y":319
                             }
@@ -630,7 +630,7 @@
                             "textureFileName": "njq_s14_mc_head",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq__s14_sound_wolf.mp3",
                             "x":451,
                             "y":481
                             }
@@ -657,7 +657,7 @@
                             "textureFileName": "njq_s15_mc_sun",
                             "textureFileExtension": ".png",
                             "frames": 16,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_touch2.mp3",
                             "x":397,
                             "y":392
                             }
@@ -666,7 +666,7 @@
                             "textureFileName": "njq_s15_mc_bg2",
                             "textureFileExtension": ".png",
                             "frames": 5,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_grass_default.mp3",
                             "x":515,
                             "y":557
                             }
@@ -675,7 +675,7 @@
                             "textureFileName": "njq_s15_mc_bg3",
                             "textureFileExtension": ".png",
                             "frames": 4,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_grass_default.mp3",
                             "x":502,
                             "y":600
                             }
@@ -684,7 +684,7 @@
                             "textureFileName": "njq_s15_mc_bg4",
                             "textureFileExtension": ".png",
                             "frames": 7,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_sound_grass_default.mp3",
                             "x":487,
                             "y":690
                             }
@@ -711,7 +711,7 @@
                             "textureFileName": "njq_s16_mc_tail",
                             "textureFileExtension": ".png",
                             "frames": 1,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            
                             "x":516,
                             "y":391
                             }
@@ -720,7 +720,7 @@
                             "textureFileName": "njq_s16_mc_head",
                             "textureFileExtension": ".png",
                             "frames": 10,
-                            "soundEffect": "njq_sound_touch_default.mp3",
+                            "soundEffect": "njq_s16_sound_wolf_snoring.mp3",
                             "x":605,
                             "y":256
                             }
