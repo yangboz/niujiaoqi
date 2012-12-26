@@ -322,6 +322,9 @@ PageContentVO *pageContent;
         CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:fileNamePNG];
         [self addChild:spriteSheet];
         
+        // Sound effect file name
+        NSString *soundEffectName = [(PageElementVO *)[elements objectAtIndex: i] soundEffect];
+        
         // Load up the frames of our animation
         NSMutableArray *walkAnimFrames = [NSMutableArray array];
         for(int j = 0; j < [frames intValue]; ++j) {
@@ -347,7 +350,7 @@ PageContentVO *pageContent;
         //@see: http://stackoverflow.com/questions/7198695/runaction-animation-crash-problem-whats-missing
         [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
             [_bear stopAction:_walkAction];
-            [[SimpleAudioEngine sharedEngine] playEffect:BUTTON_SOUND_TOUCH_DEFAULT];//Play sound effect.
+            [[SimpleAudioEngine sharedEngine] playEffect:soundEffectName];//Play sound effect.
             [_bear runAction:_walkAction];
         }];
 //        [_bear setTouchTarget:self action:@selector(onAnimation:)];

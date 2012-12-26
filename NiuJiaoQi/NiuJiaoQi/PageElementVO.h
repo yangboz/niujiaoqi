@@ -15,5 +15,6 @@
 @property (nonatomic, copy) NSString *textureFileExtension;
 @property (nonatomic, copy) NSNumber *x;
 @property (nonatomic, copy) NSNumber *y;
+@property (nonatomic, copy) NSString *soundEffect;
 
 @end

@@ -10,6 +10,6 @@
 
 @implementation PageElementVO
 
-@synthesize textureFileName,textureFileExtension,frames,x,y;
+@synthesize textureFileName,textureFileExtension,frames,x,y,soundEffect;
 
 @end
