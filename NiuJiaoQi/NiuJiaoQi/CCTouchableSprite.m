@@ -124,11 +124,11 @@ typedef void(^CCSpriteTouchBlock)(CCTouchableSprite *sprite);
             [self registerWithTouchDispatcher];
         else 
 #if COCOS2D_V2
-            [[CCDirector sharedDirector] touchDispatcher];
+            [[[CCDirector sharedDirector] touchDispatcher] removeDelegate:self];
 #else
-            [[CCTouchDispatcher sharedDispatcher] removeDelegate:self];
+        [[CCTouchDispatcher sharedDispatcher] removeDelegate:self];
 #endif
-            
+        
 	}
 }
 
@@ -161,7 +161,7 @@ typedef void(^CCSpriteTouchBlock)(CCTouchableSprite *sprite);
 #endif
     CGPoint location = [touch locationInView: [touch view]];
     CGPoint touchLocation = [[CCDirector sharedDirector]convertToGL:location];
-
+    
     if (CGRectContainsPoint([self boundingBox], touchLocation)) {
         
 #if NS_BLOCKS_AVAILABLE
@@ -184,8 +184,8 @@ typedef void(^CCSpriteTouchBlock)(CCTouchableSprite *sprite);
             return YES;
         }
     }
-
-
+    
+    
     return NO;
 }
 
@@ -219,7 +219,7 @@ typedef void(^CCSpriteTouchBlock)(CCTouchableSprite *sprite);
 }
 
 - (void) draw {
-
+    
     [super draw];
     
 	if (self.debugDraw) {
@@ -278,23 +278,24 @@ typedef void(^CCSpriteTouchBlock)(CCTouchableSprite *sprite);
 
 - (void)dealloc
 {
-
+	self.isTouchEnabled = NO;
+	
     [_invocation release];
-
+    
 #if NS_BLOCKS_AVAILABLE
-
+    
     [_touchEnded release];
-     _touchEnded = nil;
-
+    _touchEnded = nil;
+    
     [_touchBegan release];
     _touchBegan = nil;
-
+    
     [_touchableBlock release];
-     _touchableBlock = nil;
-
+    _touchableBlock = nil;
+    
     [_touchCancelled release];
     _touchCancelled = nil;
-
+    
     [_touchMoved release];
     _touchMoved = nil;
     

@@ -71,11 +71,13 @@ PageContentVO *pageContent;
             //Disable curl buttons
             // -10 means that the update method of this node will be called before other update methods which priority number is higher
             [self scheduleUpdateWithPriority:-10];
+            //
+            [[CCDirector sharedDirector] purgeCachedData];
             
         }
     }
     //Touch trigger,@see: http://www.cocos2d-iphone.org/forum/topic/73124
-    [self setTouchEnabled:YES];
+//    [self setTouchEnabled:YES];
     
     return self;
 }
@@ -201,6 +203,7 @@ PageContentVO *pageContent;
     [[SimpleAudioEngine sharedEngine] unloadEffect:BUTTON_SOUND_TOUCH_DEFAULT];
     //unregisterWithTouchDispatcher
     [[[CCDirector sharedDirector] touchDispatcher] removeDelegate:self];
+    
     //
     [super dealloc];
 }
@@ -277,12 +280,15 @@ PageContentVO *pageContent;
         // Create a sprite for our MC,default index to 0
         NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
-        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName];        
+        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName];
+//        _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName];
         _bear.position = ccp(mcX, mcY);
 //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
 //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim]];
         _walkAction = [CCRepeat actionWithAction:[CCAnimate actionWithAnimation:walkAnim] times:1];
         [_bear runAction:_walkAction];
+        
+        //
         [spriteSheet addChild:_bear];
         //
         [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFramesFromFile: fileNamePlist];
@@ -310,7 +316,7 @@ PageContentVO *pageContent;
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
         CCTouchableSprite *_bear;
-//        CCSpriteWithAction *_bear;
+//        CCSprite *_bear;
         CCAction *_walkAction;
         // This loads an image of the same name (but ending in png), and goes through the
         // plist to add definitions of each frame to the cache.
@@ -339,20 +345,24 @@ PageContentVO *pageContent;
         // Create a sprite for our MC,default index to 0
         NSString *defaultFrameName = [textureFileName stringByAppendingString:[self getTextureFileNameInfix:0]];
         //
-        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName];        
+        _bear = [CCTouchableSprite spriteWithSpriteFrameName:defaultFrameName]; 
+//        _bear = [CCSprite spriteWithSpriteFrameName:defaultFrameName]; 
         _bear.position = ccp(mcX, mcY);
         //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim restoreOriginalFrame:NO]];
 //        _walkAction = [CCRepeatForever actionWithAction:[CCAnimate actionWithAnimation:walkAnim] ];
          _walkAction = [CCRepeat actionWithAction:[CCAnimate actionWithAnimation:walkAnim] times:1];
         //        [_bear runAction:_walkAction];
         //Movieclip run ation with touch trigger.
-//        _bear.isTouchEnabled = YES;
-        //@see: http://stackoverflow.com/questions/7198695/runaction-animation-crash-problem-whats-missing
-        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
-            [_bear stopAction:_walkAction];
-            [[SimpleAudioEngine sharedEngine] playEffect:soundEffectName];//Play sound effect.
-            [_bear runAction:_walkAction];
-        }];
+        _bear.isTouchEnabled = NO;
+//        //@see: http://stackoverflow.com/questions/7198695/runaction-animation-crash-problem-whats-missing
+//        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
+//             CCTouchableSprite __weak *weakBear = _bear;
+//             CCAction __weak *weakWalkAction = _walkAction;
+//            
+//            [weakBear stopAction:weakWalkAction];
+////            [[SimpleAudioEngine sharedEngine] playEffect:soundEffectName];//Play sound effect.
+//            [weakBear runAction:weakWalkAction];
+//        }];
 //        [_bear setTouchTarget:self action:@selector(onAnimation:)];
         //
         [spriteSheet addChild:_bear];
