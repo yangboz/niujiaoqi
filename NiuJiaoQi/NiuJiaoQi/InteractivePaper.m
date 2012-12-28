@@ -355,14 +355,14 @@ PageContentVO *pageContent;
         //Movieclip run ation with touch trigger.
         _bear.isTouchEnabled = NO;
 //        //@see: http://stackoverflow.com/questions/7198695/runaction-animation-crash-problem-whats-missing
-//        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
-//             CCTouchableSprite __weak *weakBear = _bear;
+        [_bear setTouchBlock:^(CCTouchableSprite *sprite) {
+             CCTouchableSprite __weak *weakSprite = sprite;
 //             CCAction __weak *weakWalkAction = _walkAction;
-//            
-//            [weakBear stopAction:weakWalkAction];
-////            [[SimpleAudioEngine sharedEngine] playEffect:soundEffectName];//Play sound effect.
-//            [weakBear runAction:weakWalkAction];
-//        }];
+            
+            [weakSprite stopAction:_walkAction];
+            [[SimpleAudioEngine sharedEngine] playEffect:soundEffectName];//Play sound effect.
+            [weakSprite runAction:_walkAction];
+        }];
 //        [_bear setTouchTarget:self action:@selector(onAnimation:)];
         //
         [spriteSheet addChild:_bear];

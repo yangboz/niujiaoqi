@@ -3,61 +3,63 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Info.plist NiuJiaoQi/Resources/Info.plist
-cProcessPCH++ /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-envycgaifvxqcdgomvrwswzjyejn/Prefix.pch.pth NiuJiaoQi/Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-bzzszceaxbrqkuggcdsiuhpezeqn/Prefix.pch.pth NiuJiaoQi/Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-envycgaifvxqcdgomvrwswzjyejn/Prefix.pch.pth NiuJiaoQi/Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-ddefdmnruiwoltdiqabgcgvkjysb/Prefix.pch.pth NiuJiaoQi/Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGLProgram.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGLProgram.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLabelAtlas.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLabelAtlas.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCPhysicsSprite.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCPhysicsSprite.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAction.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAction.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCNode+Debug.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCNode+Debug.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTMXXMLParser.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTMXXMLParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAnimationCache.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAnimationCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/AppDelegate.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionCamera.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAction.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAction.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionCatmullRom.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionCatmullRom.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionEase.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionEase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionGrid.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionGrid.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionGrid3D.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionGrid3D.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionInstant.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionInstant.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionGrid.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionGrid.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionInterval.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionInterval.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionManager.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionPageTurn3D.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionPageTurn3D.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionProgressTimer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionProgressTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionTiledGrid.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionTiledGrid.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionPageTurn3D.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionPageTurn3D.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCActionTween.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCActionTween.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAnimationCache.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAnimationCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAnimation.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAnimation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCAtlasNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCAtlasNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCClippingNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCClippingNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCCamera.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCClippingNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCClippingNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCConfiguration.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCConfiguration.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccDeprecated.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccDeprecated.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDirector.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCDirector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDrawNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCDrawNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccDeprecated.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccDeprecated.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDrawingPrimitives.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCDrawingPrimitives.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDrawNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCDrawNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccGLStateCache.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccGLStateCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGrid.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGrid.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLabelBMFont.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLabelBMFont.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGLProgram.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGLProgram.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGrabber.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGrabber.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGrid.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCGrid.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLabelAtlas.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLabelAtlas.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLabelBMFont.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLabelBMFont.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLabelTTF.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLabelTTF.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCMenu.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCMenu.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCMenuItem.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCMenuItem.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCMotionStreak.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCMotionStreak.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCParallaxNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCParallaxNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCNode+Debug.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCNode+Debug.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCParticleBatchNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCParticleBatchNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCParticleExamples.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCParticleExamples.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCParticleSystem.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCParticleSystem.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCPhysicsDebugNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCPhysicsDebugNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCProgressTimer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCProgressTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCParticleSystemQuad.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCParticleSystemQuad.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCPhysicsDebugNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCPhysicsDebugNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCPhysicsSprite.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCPhysicsSprite.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCProgressTimer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCProgressTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCRenderTexture.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCRenderTexture.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCScene.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCScene.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCScheduler.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCScheduler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCShaderCache.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCShaderCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccShaders.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccShaders.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCSprite.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCSprite.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCSpriteFrame.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCSpriteFrame.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccShaders.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/ccShaders.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCSpriteBatchNode.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCSpriteBatchNode.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCSpriteFrame.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCSpriteFrame.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCSpriteFrameCache.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCSpriteFrameCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTexture2D.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTexture2D.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTextureAtlas.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTextureAtlas.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -67,29 +69,28 @@ cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Obj
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTMXLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTMXLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTMXObjectGroup.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTMXObjectGroup.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTMXTiledMap.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTMXTiledMap.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTMXXMLParser.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTMXXMLParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTransition.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTransition.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTransitionPageTurn.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTransitionPageTurn.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTransitionProgress.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/CCTransitionProgress.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/cocos2d.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/cocos2d.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDirectorIOS.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCES2Renderer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCES2Renderer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGLView-3536953D3A9DA673.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTouchHandler.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/iOS/CCTouchHandler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCDirectorMac.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/Mac/CCDirectorMac.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCEventDispatcher.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGLView-A7987DC3159DC775.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/Mac/CCGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCWindow.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/Mac/CCWindow.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCGLView-A7987DC3159DC775.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Platforms/Mac/CCGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/base64.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCArray.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCArray.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccCArray.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/ccCArray.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCProfiling.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCProfiling.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCFileUtils.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCFileUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCProfiling.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCProfiling.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ccUtils.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/ccUtils.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CGPointExtension.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CGPointExtension.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCVertex.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CCVertex.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/NSThread+performBlock.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/NSThread+performBlock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CGPointExtension.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/CGPointExtension.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/TGAlib.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/TGAlib.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/TransformUtils.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/TransformUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ZipUtils.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/cocos2d/Support/ZipUtils.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -99,38 +100,37 @@ cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Obj
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/SimpleAudioEngine.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/CocosDenshion/SimpleAudioEngine.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/aabb.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/aabb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/mat4stack.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/GL/mat4stack.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/matrix.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/GL/matrix.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/mat3.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/mat3.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/matrix.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/GL/matrix.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/mat4.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/mat4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/neon_matrix_impl.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/neon_matrix_impl.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/plane.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/plane.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/quaternion.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/quaternion.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/ray2.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/ray2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/vec2.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/vec2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/utility.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/utility.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/vec4.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/vec4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/vec2.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/vec2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/vec3.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/vec3.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/vec4.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/vec4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/main.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/AppDelegate.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/IntroLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/IntroLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HelloWorldLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HelloWorldLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBAnimationManager.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBAnimationManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBReader.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBKeyframe.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBKeyframe.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBReader.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBReader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBSequence.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBSequence.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCBSequenceProperty.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCBSequenceProperty.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCNode+CCBRelativePositioning.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCNode+CCBRelativePositioning.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/Sleepless01.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/Sleepless01.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/Sleepless02.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/Sleepless02.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/SubjectsModel.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/SubjectsModel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/JSONKit.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/BookStripsVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookStripsVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/JSONKit.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/Jastor.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/Jastor.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/JastorRuntimeHelper.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/JastorRuntimeHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/BookMetadataVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookMetadataVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/PageContentVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/PageContentVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/BookContentsVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/BookContentsVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/PageContentVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/PageContentVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/PageElementVO.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/PageElementVO.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HomeLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HomeLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/CCTouchableSprite.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/CCTouchableSprite.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -150,36 +150,36 @@ cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/D
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon-Small-50@2x.png NiuJiaoQi/Icon-Small-50@2x.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon-Small.png NiuJiaoQi/Icon-Small.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon-Small@2x.png NiuJiaoQi/Icon-Small@2x.png
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon.png NiuJiaoQi/Icon.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon@2x.png NiuJiaoQi/Icon@2x.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Icon.png NiuJiaoQi/Icon.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/iTunesArtwork.png NiuJiaoQi/iTunesArtwork.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/iTunesArtwork@2x.png NiuJiaoQi/iTunesArtwork@2x.png
 cCpResource NiuJiaoQi/Resources/HomeLayer.ccbi Build/Products/Debug-iphoneos/NiuJiaoQi.app/HomeLayer.ccbi
 cCpResource NiuJiaoQi/Resources/InteractivePaper.ccbi Build/Products/Debug-iphoneos/NiuJiaoQi.app/InteractivePaper.ccbi
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_chinese_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_chinese_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_chinese_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_chinese_normal.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_chinese_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_chinese_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_english_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_english_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_english_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_english_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_home_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_home_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_home_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_home_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_next_disabled.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_next_disabled.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_next_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_next_normal.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_pause_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_pause_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_next_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_next_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_pause_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_pause_selected.png
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_pause_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_pause_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_play_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_play_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_play_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_play_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_prev_disabled.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_prev_disabled.png
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_prev_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_prev_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_prev_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_prev_selected.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_prev_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_prev_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_sleeping_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_sleeping_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_sleeping_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_sleeping_selected.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_start_normal.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_start_normal.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_start_selected.png NiuJiaoQi/Resources/ccbResources/buttons/njq_btn_start_selected.png
-cCpResource NiuJiaoQi/Resources/ccbResources/data/contents.json Build/Products/Debug-iphoneos/NiuJiaoQi.app/contents.json
 cCpResource NiuJiaoQi/Resources/ccbResources/data/bookStrips.json Build/Products/Debug-iphoneos/NiuJiaoQi.app/bookStrips.json
-cCpResource NiuJiaoQi/Resources/ccbResources/data/metadata.json Build/Products/Debug-iphoneos/NiuJiaoQi.app/metadata.json
+cCpResource NiuJiaoQi/Resources/ccbResources/data/contents.json Build/Products/Debug-iphoneos/NiuJiaoQi.app/contents.json
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_home_bg_00.png NiuJiaoQi/Resources/ccbResources/home/njq_home_bg_00.png
+cCpResource NiuJiaoQi/Resources/ccbResources/data/metadata.json Build/Products/Debug-iphoneos/NiuJiaoQi.app/metadata.json
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_home_sprite_notsleep.png NiuJiaoQi/Resources/ccbResources/home/njq_home_sprite_notsleep.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_bg_00.png NiuJiaoQi/Resources/ccbResources/s1/njq_s1_bg_00.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_mc_bear.plist NiuJiaoQi/Resources/ccbResources/s1/njq_s1_mc_bear.plist
@@ -190,8 +190,8 @@ cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_mc_pig.png NiuJiaoQi/Resources/ccbResources/s1/njq_s1_mc_pig.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_mc_text.plist NiuJiaoQi/Resources/ccbResources/s1/njq_s1_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_mc_text.png NiuJiaoQi/Resources/ccbResources/s1/njq_s1_mc_text.png
-cCpResource NiuJiaoQi/Resources/ccbResources/s1/njq_s1_sound_00.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_sound_00.mp3
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_bg_00.png NiuJiaoQi/Resources/ccbResources/s10/njq_s10_bg_00.png
+cCpResource NiuJiaoQi/Resources/ccbResources/s1/njq_s1_sound_00.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_sound_00.mp3
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_mc_grass1.plist NiuJiaoQi/Resources/ccbResources/s10/njq_s10_mc_grass1.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_mc_grass1.png NiuJiaoQi/Resources/ccbResources/s10/njq_s10_mc_grass1.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_mc_grass2.plist NiuJiaoQi/Resources/ccbResources/s10/njq_s10_mc_grass2.plist
@@ -229,13 +229,13 @@ cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/D
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_head.plist NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_head.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_head.png NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_head.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_tail.plist NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_tail.plist
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_text.plist NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_text.plist
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_text.png NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_text.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_tail.png NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_tail.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_text.png NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_text.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_mc_text.plist NiuJiaoQi/Resources/ccbResources/s14/njq_s14_mc_text.plist
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_wolf.plist NiuJiaoQi/Resources/ccbResources/s14/njq_s14_wolf.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_wolf.png NiuJiaoQi/Resources/ccbResources/s14/njq_s14_wolf.png
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_bg_00.png NiuJiaoQi/Resources/ccbResources/s15/njq_s15_bg_00.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_mc_bg2.plist NiuJiaoQi/Resources/ccbResources/s15/njq_s15_mc_bg2.plist
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_bg_00.png NiuJiaoQi/Resources/ccbResources/s15/njq_s15_bg_00.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_mc_bg2.png NiuJiaoQi/Resources/ccbResources/s15/njq_s15_mc_bg2.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_mc_bg3.plist NiuJiaoQi/Resources/ccbResources/s15/njq_s15_mc_bg3.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s15_mc_bg3.png NiuJiaoQi/Resources/ccbResources/s15/njq_s15_mc_bg3.png
@@ -250,28 +250,28 @@ cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_head.png NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_head.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_tail.plist NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_tail.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_tail.png NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_tail.png
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_text.plist NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_text.png NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_text.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_mc_text.plist NiuJiaoQi/Resources/ccbResources/s16/njq_s16_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_bg_00.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_bg_00.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_grass.plist NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_grass.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_grass.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_grass.png
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_text.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_text.plist NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_text.plist
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_wolf.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_wolf.png
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_text.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_wolf.plist NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_wolf.plist
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_mc_wolf.png NiuJiaoQi/Resources/ccbResources/s2/njq_s2_mc_wolf.png
 cCpResource NiuJiaoQi/Resources/ccbResources/s2/njq_s2_sound_00.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s2_sound_00.mp3
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_text.plist NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_bg_00.png NiuJiaoQi/Resources/ccbResources/s3/njq_s3_bg_00.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_text.plist NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_text.plist
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_wolf1.plist NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_wolf1.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_text.png NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_text.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_wolf1.png NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_wolf1.png
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_wolf1.plist NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_wolf1.plist
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_wolf2.plist NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_wolf2.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s3_mc_wolf2.png NiuJiaoQi/Resources/ccbResources/s3/njq_s3_mc_wolf2.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_bg_00.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_bg_00.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_sheep1.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_sheep1.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_sheep1.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_sheep1.png
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_sheep2.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_sheep2.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_sheep2.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_sheep2.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_sheep2.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_sheep2.plist
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_text.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_text.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_wolf_body.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_wolf_body.plist
@@ -280,14 +280,14 @@ cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_wolf_head.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_wolf_head.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_wolf_tail.plist NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_wolf_tail.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_mc_wolf_tail.png NiuJiaoQi/Resources/ccbResources/s4/njq_s4_mc_wolf_tail.png
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_sheep.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_sheep.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_bg_00.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_bg_00.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_sheep.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_sheep.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_sheep.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_sheep.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_text.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_text.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_text.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_body.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_body.plist
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_body.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_body.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_head.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_head.plist
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_body.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_body.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_head.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_head.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_tail.plist NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_tail.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_mc_wolf_tail.png NiuJiaoQi/Resources/ccbResources/s5/njq_s5_mc_wolf_tail.png
@@ -297,9 +297,9 @@ cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/D
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_frog2.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_frog2.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_frog2.png NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_frog2.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_text.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_text.plist
-cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_body.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_body.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_text.png NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_text.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_body.png NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_body.png
+cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_body.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_body.plist
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_hand.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_hand.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_hand.png NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_hand.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_head1.plist NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_head1.plist
@@ -310,8 +310,8 @@ cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_mc_wolf_tail.png NiuJiaoQi/Resources/ccbResources/s6/njq_s6_mc_wolf_tail.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_bg_00.png NiuJiaoQi/Resources/ccbResources/s7/njq_s7_bg_00.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_frog.plist NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_frog.plist
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_frog.png NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_frog.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_text.plist NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_text.plist
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_frog.png NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_frog.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_text.png NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_mc_wolf.plist NiuJiaoQi/Resources/ccbResources/s7/njq_s7_mc_wolf.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s8_bg_00.png NiuJiaoQi/Resources/ccbResources/s8/njq_s8_bg_00.png
@@ -326,14 +326,14 @@ cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/D
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_pig.plist NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_pig.plist
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_pig.png NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_pig.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_text.plist NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_text.plist
-cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_text.png NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_text.png
 cCopyPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_wolf.plist NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_wolf.plist
+cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_text.png NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_text.png
 cCopyPNGFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s9_mc_wolf.png NiuJiaoQi/Resources/ccbResources/s9/njq_s9_mc_wolf.png
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_button.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_button.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_curl_next.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_curl_next.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_curl.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_curl.mp3
-cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_grass_default.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_grass_default.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_curl_prev.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_curl_prev.mp3
+cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_grass_default.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_grass_default.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_language_choice.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_language_choice.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_play_pause.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_play_pause.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_sleep_mode.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_sleep_mode.mp3
@@ -342,12 +342,12 @@ cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_touch_default.mp3 B
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s7_sound_wolf_startle.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_sound_wolf_startle.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq__s13_sound_wolf.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq__s13_sound_wolf.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq__s14_sound_wolf.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq__s14_sound_wolf.mp3
-cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s4_sound_sheep.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_sound_sheep.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s6_sound_frog.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_sound_frog.mp3
+cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s4_sound_sheep.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_sound_sheep.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s10_sound_pig_snoring.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_sound_pig_snoring.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s11_sound_bear_snoring.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s11_sound_bear_snoring.mp3
-cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s13_sound_Moon_snoring.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s13_sound_Moon_snoring.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s16_sound_wolf_snoring.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_sound_wolf_snoring.mp3
+cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_s13_sound_Moon_snoring.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s13_sound_Moon_snoring.mp3
 cCpResource NiuJiaoQi/Resources/ccbResources/sound/njq_sound_touch2.mp3 Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_touch2.mp3
 cTouch /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app
 
@@ -770,8 +770,8 @@ t1356449804
 s19116
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o
-t1356621050
-s96748
+t1356623290
+s95348
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/IntroLayer.o
 t1356525670
@@ -931,11 +931,11 @@ t1356449800
 s4755992
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app
-t1356621050
-s7106
+t1356623290
+s7412
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM
-t1356621050
+t1356623290
 s102
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/ChangeLog
@@ -1003,8 +1003,8 @@ t1356449809
 s1338
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi
-t1356621050
-s1718496
+t1356623290
+s1718220
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/PkgInfo
 t1356449799
@@ -1015,8 +1015,8 @@ t1356449810
 s1668
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/contents.json
-t1356525671
-s29720
+t1356623290
+s29066
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/fps_images-hd.png
 t1356449806
@@ -1043,12 +1043,12 @@ t1356449810
 s97
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq__s13_sound_wolf.mp3
-t2
-s0
+t1356623290
+s35944
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq__s14_sound_wolf.mp3
-t2
-s0
+t1356623290
+s21733
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_btn_chinese_normal.png
 t1356449809
@@ -1175,8 +1175,8 @@ t1356449820
 s59769
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s10_sound_pig_snoring.mp3
-t2
-s0
+t1356623290
+s36486
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s11_bg_00.png
 t1356449822
@@ -1207,8 +1207,8 @@ t1356449829
 s1027166
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s11_sound_bear_snoring.mp3
-t2
-s0
+t1356623290
+s27167
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s12_bg_00.png
 t1356449826
@@ -1283,8 +1283,8 @@ t1356449836
 s312628
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s13_sound_Moon_snoring.mp3
-t2
-s0
+t1356623290
+s38870
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s14_bg_00.png
 t1356449837
@@ -1395,8 +1395,8 @@ t1356449853
 s127247
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s16_sound_wolf_snoring.mp3
-t2
-s0
+t1356623290
+s28003
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s1_bg_00.png
 t1356449816
@@ -1551,8 +1551,8 @@ t1356449875
 s822628
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s4_sound_sheep.mp3
-t2
-s0
+t1356623290
+s12956
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s5_bg_00.png
 t1356449871
@@ -1667,8 +1667,8 @@ t1356449884
 s803117
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s6_sound_frog.mp3
-t2
-s0
+t1356623290
+s5015
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_s7_bg_00.png
 t1356449882
@@ -1767,39 +1767,39 @@ t1356449889
 s28839
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_curl_next.mp3
-t1356449889
+t1356623290
 s14210
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_curl_prev.mp3
-t1356449889
+t1356623290
 s14210
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_grass_default.mp3
-t1356449889
+t1356623290
 s18808
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_language_choice.mp3
-t1356449889
+t1356623290
 s1253
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_play_pause.mp3
-t1356449889
+t1356623290
 s5433
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_sleep_mode.mp3
-t1356449889
+t1356623290
 s1253
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_start.mp3
-t1356449889
+t1356623290
 s1253
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_touch2.mp3
-t2
-s0
+t1356623290
+s1253
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/njq_sound_touch_default.mp3
-t1356449889
+t1356623290
 s1671
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/AppDelegate.h
@@ -1983,9 +1983,9 @@ t1356444729
 s1589
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m
-c0000000050DC6D940000000000004156
-t1356623252
-s16726
+c0000000050DCE1A00000000000004147
+t1356652960
+s16711
 
 N/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/IntroLayer.h
 c0000000050BA252D0000000000000177
@@ -4663,7 +4663,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesac733437a58cb641^91d3af39a58cb641^---0#1#0#--18"Check dependencies36"419E5E46-771C-4196-A382-3A45C457D81C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1957e838198db641^3482253a198db641^---0#1#0#--18"Check dependencies36"AEE7D332-4944-4F25-85E6-47F7B24DD11C-
 
 CCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/AppDelegate.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s378142603.971082
@@ -5869,8 +5869,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HomeLayer.m8f6dad8cff89b641^433aec8cff89b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HomeLayer.m0000000000000000^3410"CompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HomeLayer.o NiuJiaoQi/HomeLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-generated-files.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-project-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/include -INiuJiaoQi/libs/kazmath/include -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources -F/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-bzzszceaxbrqkuggcdsiuhpezeqn/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HomeLayer.d --serialize-diagnostics /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HomeLayer.dia -c /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/HomeLayer.m -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/HomeLayer.o36"8B51DAFB-577B-43F5-AA07-17B0B4F9E2F4-
 
 CCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s378316089.798423
-e378316090.181012
+s378345786.248646
+e378345786.678911
 r1
 xCompileC
 xBuild/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o
@@ -5879,11 +5879,11 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m:332:19: warning: unused variable 'soundEffectName' [-Wunused-variable]
-o        NSString *soundEffectName = [(PageElementVO *)[elements objectAtIndex: i] soundEffect];
-o                  ^
+o/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m:359:40: warning: __weak attribute cannot be specified on an automatic variable
+o             CCTouchableSprite __weak *weakSprite = sprite;
+o                                       ^
 o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m7b86cc39a58cb641^5c552e3aa58cb641^-288"/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m:332:19: warning: unused variable 'soundEffectName' [-Wunused-variable]        NSString *soundEffectName = [(PageElementVO *)[elements objectAtIndex: i] soundEffect];                  ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@33"Unused variable 'soundEffectName'-378316090#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m0000000000000000^331#18#331#18#13412#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m0000000000000000^3452"CompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o NiuJiaoQi/InteractivePaper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-generated-files.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-project-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/include -INiuJiaoQi/libs/kazmath/include -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources -F/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-bzzszceaxbrqkuggcdsiuhpezeqn/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.d --serialize-diagnostics /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.dia -c /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o36"FC706291-221F-4421-9D9C-E55C20F7B5E9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m58c53f3a198db641^32ccad3a198db641^-281"/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m:359:40: warning: __weak attribute cannot be specified on an automatic variable             CCTouchableSprite __weak *weakSprite = sprite;                                       ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@61"__weak attribute cannot be specified on an automatic variable-378345786#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m0000000000000000^358#39#358#39#15137#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m0000000000000000^3452"CompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o NiuJiaoQi/InteractivePaper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -DCOCOS2D_DEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-generated-files.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/NiuJiaoQi-project-headers.hmap -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/include -INiuJiaoQi/libs/kazmath/include -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources/armv7 -I/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/DerivedSources -F/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -include /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/PrecompiledHeaders/Prefix-bzzszceaxbrqkuggcdsiuhpezeqn/Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.d --serialize-diagnostics /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.dia -c /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/InteractivePaper.m -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/InteractivePaper.o36"7891C18C-A434-495F-B843-61D6151904AF-
 
 CCompileC Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/IntroLayer.o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/IntroLayer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s378218469.646794
@@ -8268,23 +8268,23 @@ xBuild/Products/Debug-iphoneos/NiuJiaoQi.app/ChangeLog
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Build/Products/Debug-iphoneos/NiuJiaoQi.app/ChangeLog0e32898eff89b641^bdc3898eff89b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/ChangeLog000000000080d041^748"CpResource NiuJiaoQi/libs/kazmath/src/ChangeLog Build/Products/Debug-iphoneos/NiuJiaoQi.app/ChangeLog    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/NiuJiaoQi/libs/kazmath/src/ChangeLog /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app36"224A59FB-95AF-42E7-91A8-9E8C4C264124-
 
 CGenerateDSYMFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi
-s378316090.385765
-e378316090.563979
+s378345787.565247
+e378345787.937154
 r1
 xGenerateDSYMFile
 x/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM
 x/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generating /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM03d2623aa58cb641^ee60903aa58cb641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM/0000000000000000^638"GenerateDSYMFile Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM36"1B8AC9ED-6BB5-4125-A487-C22A4D55CD56-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Generating /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM08c7903b198db641^a7e9ef3b198db641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM/0000000000000000^638"GenerateDSYMFile Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app.dSYM36"CDB4D511-2DDA-4833-95CC-0545679479FF-
 
 CLd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi normal armv7
-s378316090.188088
-e378316090.377870
+s378345786.686833
+e378345787.559035
 r1
 xLd
 x/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi
 xnormal
 xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi713b303aa58cb641^98bd603aa58cb641^---0#0#0#--1266"Ld Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi normal armv7    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -F/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -filelist /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/NiuJiaoQi.LinkFileList -dead_strip -lz -ObjC -miphoneos-version-min=4.0 -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -framework GameKit -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi36"344CD732-BE26-46F9-9909-B7F5A9670351-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQib0e7af3a198db641^321c8f3b198db641^---0#0#0#--1266"Ld Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi normal armv7    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -F/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos -filelist /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Intermediates/NiuJiaoQi.build/Debug-iphoneos/NiuJiaoQi.build/Objects-normal/armv7/NiuJiaoQi.LinkFileList -dead_strip -lz -ObjC -miphoneos-version-min=4.0 -framework QuartzCore -framework OpenGLES -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -framework GameKit -o /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/NiuJiaoQi36"C7DA8214-CC7B-4030-882C-80B70D830548-
 
 CProcessInfoPlistFile /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app/Info.plist NiuJiaoQi/Resources/Info.plist
 s378142599.709904
@@ -8344,10 +8344,10 @@ CProcessPCH++ /Users/smartkit/Library/Developer/Xcode/DerivedData/NiuJiaoQi-dzer
 r0
 
 CTouch /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app
-s378316090.884999
-e378316090.889562
+s378345788.031474
+e378345788.036334
 r1
 xTouch
 x/Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app629de23aa58cb641^dcbae33aa58cb641^---0#0#0#--413"Touch Build/Products/Debug-iphoneos/NiuJiaoQi.app    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app36"711A33DD-9407-4DA3-B6E5-B5CF622A2138-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app261e083c198db641^724d093c198db641^---0#0#0#--413"Touch Build/Products/Debug-iphoneos/NiuJiaoQi.app    cd /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/niujiaoqi/NiuJiaoQi/Build/Products/Debug-iphoneos/NiuJiaoQi.app36"79C77C4A-ACE1-4BC6-83A1-FA60A9598760-
 
