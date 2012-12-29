@@ -30,9 +30,6 @@
 @property(nonatomic,retain) CCSprite* backgroundSprite;
 //Play animation
 @property(nonatomic,retain) CCBAnimationManager* animationManager;
-//Sound buttons
-@property(nonatomic,retain) CCMenuItem *btn_sound_play;
-@property(nonatomic,retain) CCMenuItem *btn_sound_stop;
 //Layers
 @property(nonatomic,retain) CCLayer *layer_menuItems;
 //Curl buttons
@@ -44,11 +41,6 @@
 // is replaced by the start scene, created by CocosBuilder.
 - (void) onNext:(id)sender;
 - (void) onPrevious:(id)sender;
-//Play or pause sound effect
-//- (void) onSound:(id)sender;
-- (void) onSoundPlay:(id)sender;
-- (void) onSoundStop:(id)sender;
-- (void) onSoundPause:(id)sender;
 //Return home menu
 - (void) onHome:(id)sender;
 

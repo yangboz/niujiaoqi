@@ -19,7 +19,7 @@
 
 @synthesize backgroundSprite;
 @synthesize animationManager;
-@synthesize btn_sound_play,btn_sound_stop,btn_curl_next,btn_curl_prev;
+@synthesize btn_curl_next,btn_curl_prev;
 @synthesize layer_menuItems;
 
 //Constants
@@ -34,6 +34,9 @@
 //Variables
 CGSize winSize;
 PageContentVO *pageContent;
+//Buttons
+CCMenuItem *_playMenuItem;
+CCMenuItem *_pauseMenuItem;
 
 -(id) init
 {
@@ -43,7 +46,7 @@ PageContentVO *pageContent;
         BookContentsVO *bookContents = [SubjectsModel getContents];
         BookMetadataVO *bookMetadata = [SubjectsModel getMetadata];
 //        NSLog(@"BookContentsVO => %@\n", bookContents);
-        //Currently,assets prepared 3 pages.
+        //Currently,assets prepared 16 pages.
         if(pageIndex<[[bookMetadata strips] intValue])
         {
             //
@@ -68,11 +71,15 @@ PageContentVO *pageContent;
             [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_CURL_NEXT];
             [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_CURL_PREV];
             [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_TOUCH_DEFAULT];
+            [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];//Stop previous background music is neccessary.
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:[pageContent sound] loop:YES];
             //Disable curl buttons
             // -10 means that the update method of this node will be called before other update methods which priority number is higher
             [self scheduleUpdateWithPriority:-10];
-            //
+            //clean previous page cached data if neccessary.
             [[CCDirector sharedDirector] purgeCachedData];
+            //Display play/pause toggle buttons
+            [self displayPlayPauseToggleButton];
             
         }
     }
@@ -135,31 +142,6 @@ PageContentVO *pageContent;
     
     
 }
-//Play or pause sound effect
-//- (void) onSound:(id)sender
-- (void) onSoundPlay:(id)sender
-{
-    if([[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying])
-    {
-        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:[pageContent sound] loop:YES];
-    }else {
-        [[SimpleAudioEngine sharedEngine] resumeBackgroundMusic];
-    }
-    //
-    [btn_sound_stop setVisible:YES];
-    [btn_sound_play setVisible:NO];
-}
-- (void) onSoundStop:(id)sender
-{
-    [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
-    //
-    [btn_sound_stop setVisible:NO];
-    [btn_sound_play setVisible:YES];
-}
-- (void) onSoundPause:(id)sender
-{
-    [[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
-}
 
 //Return home menu
 - (void) onHome:(id)sender
@@ -184,6 +166,8 @@ PageContentVO *pageContent;
     [btn_sound_stop release];
 //    [btn_curl_next release];
 //    [btn_curl_prev release];
+    [_playMenuItem release];
+    [_pauseMenuItem release];
     //
     backgroundSprite = nil;
     animationManager = nil;
@@ -191,6 +175,8 @@ PageContentVO *pageContent;
     btn_sound_stop = nil;
     btn_curl_next = nil;
     btn_curl_prev = nil;
+    _playMenuItem = nil;
+    _pauseMenuItem = nil;
     //
     [[CCSpriteFrameCache sharedSpriteFrameCache] removeUnusedSpriteFrames];
     [[CCSpriteFrameCache sharedSpriteFrameCache] removeSpriteFrames];
@@ -405,6 +391,37 @@ PageContentVO *pageContent;
 //    NSLog(@"Touch target:%@",(CCSprite *)[touch.view]);
     
 }
+
+//
+-(void) displayPlayPauseToggleButton{
+    _playMenuItem = [[CCMenuItemImage itemWithNormalImage:@"njq_btn_play_normal.png" selectedImage:@"njq_btn_play_selected.png" target:nil selector:nil] retain];
+    _pauseMenuItem = [[CCMenuItemImage itemWithNormalImage:@"njq_btn_pause_normal.png" selectedImage:@"njq_btn_pause_selected.png" target:nil selector:nil] retain];
+    CCMenuItemToggle *toggleItem = [CCMenuItemToggle itemWithTarget:self selector:@selector(playPauseButtonTapped:) items:_pauseMenuItem,_playMenuItem, nil];
+    CCMenuItem *toggleMenu = [CCMenu menuWithItems:toggleItem, nil];
+    [self addChild:toggleMenu];
+//    toggleMenu.position = ccp((winSize.width-toggleMenu.rect.size.width)/2,toggleMenu.rect.size.height/2);
+//    toggleMenu.anchorPoint = ccp(0.5,0.5);
+    toggleMenu.position = ccp((winSize.width-50),(768-50));
+}
+
+- (void)playPauseButtonTapped:(id)sender {     
+    CCMenuItemToggle *toggleItem = (CCMenuItemToggle *)sender;   
+    if (toggleItem.selectedItem == _playMenuItem) {  
+//        [[CCDirector sharedDirector] pause];   
+        //onSoundPause
+        [[SimpleAudioEngine sharedEngine] pauseBackgroundMusic];
+    } else if (toggleItem.selectedItem == _pauseMenuItem) {     
+//        [[CCDirector sharedDirector] resume];     
+        //onSoundPlay
+        if([[SimpleAudioEngine sharedEngine] isBackgroundMusicPlaying])
+        {
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:[pageContent sound] loop:YES];
+        }else {
+            [[SimpleAudioEngine sharedEngine] resumeBackgroundMusic];
+        }
+    }   
+}
+
 
 
 @end

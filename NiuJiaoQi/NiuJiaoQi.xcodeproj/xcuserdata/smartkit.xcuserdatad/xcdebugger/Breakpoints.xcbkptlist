@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "NiuJiaoQi/InteractivePaper.m"
-         timestampString = "378224108.811859"
+         timestampString = "378456944.215566"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "102"
-         endingLineNumber = "102"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
          landmarkName = "-onAnimation:"
          landmarkType = "5">
       </FileBreakpoint>
