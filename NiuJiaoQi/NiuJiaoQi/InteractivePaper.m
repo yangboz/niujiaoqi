@@ -237,7 +237,7 @@ CCMenuItem *_pauseMenuItem;
         NSString *textureFileExtension = [(PageElementVO *)[elements objectAtIndex: i] textureFileExtension];
         NSNumber *frames = [(PageElementVO *)[elements objectAtIndex: i] frames];
         int mcX = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
-        int mcY = 768 - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
+        int mcY = winSize.height - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
 //        CCSprite *_bear;
@@ -298,7 +298,7 @@ CCMenuItem *_pauseMenuItem;
         NSString *textureFileExtension = [(PageElementVO *)[elements objectAtIndex: i] textureFileExtension];
         NSNumber *frames = [(PageElementVO *)[elements objectAtIndex: i] frames];
         int mcX = [[(PageElementVO *)[elements objectAtIndex: i] x] intValue];
-        int mcY = 768 - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
+        int mcY = winSize.height - [[(PageElementVO *)[elements objectAtIndex: i] y] intValue];
         NSLog (@"movieclip info %i = %@,%@,%d,%d", i, textureFileName,textureFileExtension,mcX,mcY);
         //MovieClip assemble(bear for example)
         CCTouchableSprite *_bear;
