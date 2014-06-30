@@ -28,7 +28,7 @@
         [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_START];
         [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_SLEEP_MODE];
         [[SimpleAudioEngine sharedEngine] preloadEffect:BUTTON_SOUND_PLAY_PAUSE];
-        //
+        //Disable buttons for versioning(0.0.1)
 
     }
     return self;

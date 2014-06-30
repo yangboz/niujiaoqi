@@ -18,13 +18,12 @@
 // And in iOS 6+ only, you can override it in the Root View controller in the "supportedInterfaceOrientations" method.
 // Only valid for iOS 6+. NOT VALID for iOS 4 / 5.
 -(NSUInteger)supportedInterfaceOrientations {
-	
 	// iPhone only
 	if( [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone )
 		return UIInterfaceOrientationLandscapeLeft;
 	
 	// iPad only
-	return UIInterfaceOrientationLandscapeLeft;
+	return UIInterfaceOrientationMaskLandscapeLeft | UIInterfaceOrientationMaskLandscapeRight;
 }
 
 // Supported orientations. Customize it for your own needs
@@ -39,7 +38,6 @@
 	// iPhone only
 	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
-
 // This is needed for iOS4 and iOS5 in order to ensure
 // that the 1st scene has the correct dimensions
 // This is not needed on iOS6 and could be added to the application:didFinish...

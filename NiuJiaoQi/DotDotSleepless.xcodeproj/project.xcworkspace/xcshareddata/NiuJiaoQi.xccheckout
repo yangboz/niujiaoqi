@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C42CC49-2D42-4B6B-8904-18A695F09DD3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NiuJiaoQi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B09229E1-DA72-4822-82F2-407AFDDE66E6</key>
+		<string>https://github.com/yangboz/niujiaoqi</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NiuJiaoQi/NiuJiaoQi.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B09229E1-DA72-4822-82F2-407AFDDE66E6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yangboz/niujiaoqi</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B09229E1-DA72-4822-82F2-407AFDDE66E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B09229E1-DA72-4822-82F2-407AFDDE66E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>niujiaoqi</string>
+		</dict>
+	</array>
+</dict>
+</plist>
